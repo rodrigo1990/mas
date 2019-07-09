@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="bkground">
-	<h1><b>M</b>ovimiento de <b>A</b>ccion <b>S</b>ocial</h1>
+	<h1><b>M</b>ovimiento de <b>A</b>cción <b>S</b>ocial</h1>
 
 	<ul class="flex">
 		<li>
@@ -32,9 +32,9 @@
 </div>
 
 
-<div class="row nosotros mt0 p10">
+<div class="row nosotros mt0 p10 mb18">
 	<div class="container">
-		<h1 class="text-center mt10 mb30">NOSOTROS</h1>
+		<h1 class="text-center mt17 mb10">NOSOTROS</h1>
 		<ul class="flex mt20 mb20">
 			<li class="text-center">
 				<div class="circle-img"></div>
@@ -54,5 +54,13 @@
 		</ul>
 	</div>
 </div>
+
+<!-- FOTO COLASH -->
+<div class="row photo-colash"></div>
+
+
+
+@include('inc.bkground-bottom')
+@include('inc.footer')
 
 @stop

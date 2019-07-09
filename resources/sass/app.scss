@@ -267,7 +267,8 @@ header ul.sub-menu li:not(:first-child){
 
 
  .logo{
-    width: 178px !important;
+        width: 148px !important;
+    margin-top: 7px;
 }
 
 .xs-row{
@@ -394,9 +395,21 @@ div.bkground>h1, div.bkground ul{
 }
 
 
+
 div.bkground>h1{
+    font-size: 5.4rem !important;
+}
+
+div.bkground>h1,div.bkground-bottom h1{
    font-family: $paragraph-family !important; 
-       font-size: 5.4rem !important;
+       
+       color:white !important;
+
+}
+
+
+div.bkground>h1>b{
+   font-weight: bolder;
 
 }
 
@@ -599,6 +612,67 @@ div.bkground ul li:nth-child(5){
     margin-left:105px;
 }
 
+
+/*BACKGROUND BOTTOM*/
+
+.bkground-bottom{
+    position:relative;
+    background-image:url('../img/bk-bottom.jpg');
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size:cover;
+}
+
+
+.bkground-bottom .logo-cont {
+    position:absolute;
+    @include center-abs;
+    width: fit-content;
+    height: fit-content;
+
+
+
+ }
+
+
+
+ .bkground-bottom .logo-cont img {
+    width: 300px;
+    margin-left:auto;
+    margin-right:auto;
+ }
+
+
+footer{
+    background-color:$primary-color;
+    font-family: $paragraph-family;
+
+}
+
+footer h4{
+    color:$white;
+    letter-spacing: 5px;
+}
+
+
+footer ul{
+    width:fit-content;
+    margin:auto;
+}
+
+footer ul li:not(:nth-child(1))   {
+    margin-top:8px;
+    margin-left:25px;
+}
+
+
+
+
+footer ul li a i {
+    color:white;
+    font-size: 26px
+}
 
 
 
