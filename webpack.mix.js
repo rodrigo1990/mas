@@ -12,9 +12,7 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css').options({
-        processCssUrls: false
-   })
+    .sass('resources/sass/app.scss', 'public/css')
     .styles('resources/bootstrap-3.3.7-dist/css/bootstrap.min.css','public/css/bootstrap-3.css');
 
 

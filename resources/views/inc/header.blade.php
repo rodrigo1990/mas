@@ -15,6 +15,8 @@
 							<li><a href="" class="after-btn">COLABORÁ</a></li>
 
 							<li class="">
+
+								<a href="https://www.facebook.com/argenpesos" target="_blank" class="float-left rr-ss"><i class="far fa-envelope"></i></a>
 								
 								<a href="https://www.facebook.com/argenpesos" target="_blank" class="float-left rr-ss"><i class="fab fa-facebook-f"></i></a>
 
@@ -28,7 +30,7 @@
 				</div>
 				<div class="hidden-lg col-md-12 col-sm-12 col-xs-12 text-center xs-row " style="">
 					<a href="index.php">
-						<img src="<?php echo asset("img/logo-blue.svg")?>" width="150px"></img> 
+						<img class="logo" src="<?php echo asset("img/logo-blue.svg")?>"></img> 
 					</a>
 						<a id="abrirMenu">
 							<i class="fa fa-bars"  id="abrirMenu"></i>

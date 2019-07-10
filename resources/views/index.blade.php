@@ -56,7 +56,9 @@
 </div>
 
 <!-- FOTO COLASH -->
-<div class="row photo-colash"></div>
+<div class="row photo-colash">
+	<img class="center-block" src="{{asset('img/Mas_img_pie.jpg')}}" alt="">
+</div>
 
 
 

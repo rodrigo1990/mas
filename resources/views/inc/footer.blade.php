@@ -1,10 +1,10 @@
 <footer class="p5">
 	<div class="row">
 				<div class="container">
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4">
 				<ul class="flex mr0">
 					<li>
-						<img src="{{asset('img/logo-blue.svg')}}" alt="">
+						<img class="logo" src="{{asset('img/logo-white.svg')}}" alt="">
 					</li>
 					
 					<li><a href="mailTo:">
@@ -19,8 +19,8 @@
 					
 				</ul>
 			</div>
-			<div class="col-lg-8">
-				<h4 class="m0 mt4 text-center">Merendero MAS Movimiento de Acción Social - 2019</h4>
+			<div class="col-lg-8 col-md-8">
+				<h4 class="m0 mt4 text-left">Merendero MAS Movimiento de Acción Social - 2019</h4>
 			</div>
 		</div>
 	</div>

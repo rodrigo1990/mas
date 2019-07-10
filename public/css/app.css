@@ -1,85 +1,111 @@
 /*@import url('https://fonts.googleapis.com/css?family=Nunito');*/
+
 /*@import 'variables';*/
+
 /*@import '~bootstrap/scss/bootstrap';*/
+
 /*---------------------------------------------*/
+
 /*FUENTES*/
+
 /*----------------------------------------------*/
+
 @font-face {
   font-family: bebas;
-  src: url("../fonts/BebasNeue-Regular.ttf");
+  src: url(/fonts/BebasNeue-Regular.ttf?47f711bd1524b9283aa92d3d74db16a8);
 }
+
 @font-face {
   font-family: bebasBook;
-  src: url("../fonts/BebasNeue-Book.ttf");
+  src: url(/fonts/BebasNeue-Book.ttf?30dc35833a8ab3b835403faee927c674);
 }
+
 @font-face {
   font-family: GothamMedium;
-  src: url("../fonts/GothamMedium.otf");
+  src: url(/fonts/GothamMedium.otf?d757e9fd5c6ba81b580177713c055817);
 }
+
 @font-face {
   font-family: GothamBook;
-  src: url("../fonts/GothamBook.otf");
+  src: url(/fonts/GothamBook.otf?d9ffa429095699d11f83ccc91df7f513);
 }
+
 @font-face {
   font-family: GothamBold;
-  src: url("../fonts/GothamBold.otf");
+  src: url(/fonts/GothamBold.otf?260f11fd955337c6762ee41017abd6f9);
 }
+
 @font-face {
   font-family: GothamBlack;
-  src: url("../fonts/Gotham-Black.otf");
+  src: url(/fonts/Gotham-Black.otf?80d5397ddfd5d0407adb1b98f877800f);
 }
+
 @font-face {
   font-family: RobotoBold;
-  src: url("../fonts/RobotoSlab-Bold.ttf");
+  src: url(/fonts/RobotoSlab-Bold.ttf?d63ef23299458362f3edbf6cd8c2c510);
 }
+
 @font-face {
   font-family: RobotoSlabThin;
-  src: url("../fonts/RobotoSlab-Thin.ttf");
+  src: url(/fonts/RobotoSlab-Thin.ttf?317a4210ef29a41c456503c8e5951448);
 }
+
 @font-face {
   font-family: RalewayRegular;
-  src: url("../fonts/Raleway-Regular.ttf");
+  src: url(/fonts/Raleway-Regular.ttf?580d0778ad254335be45bf58bb449f43);
 }
+
 @font-face {
   font-family: OswaldBold;
-  src: url("../fonts/Oswald-Bold.ttf");
+  src: url(/fonts/Oswald-Bold.ttf?34289f82601fbb79a22ba60fe6fbd1ae);
 }
+
 @font-face {
   font-family: OswaldExtraLight;
-  src: url("../fonts/Oswald-ExtraLight.ttf");
+  src: url(/fonts/Oswald-ExtraLight.ttf?b889dd229ba5e378a85a2690d99b87e1);
 }
+
 @font-face {
   font-family: OswaldLight;
-  src: url("../fonts/Oswald-Light.ttf");
+  src: url(/fonts/Oswald-Light.ttf?28f420baee57eae29314968f9dcdafb0);
 }
+
 @font-face {
   font-family: OswaldMedium;
-  src: url("../fonts/Oswald-Medium.ttf");
+  src: url(/fonts/Oswald-Medium.ttf?3e97dbdbf4aa4665df1da7bc816d93ac);
 }
+
 @font-face {
   font-family: OswaldRegular;
-  src: url("../fonts/Oswald-Regular.ttf");
+  src: url(/fonts/Oswald-Regular.ttf?727a75824bbc14dcc8926e4ebb85ea71);
 }
+
 @font-face {
   font-family: UbuntuBoldItalic;
-  src: url("../fonts/Ubuntu-BI.ttf");
+  src: url(/fonts/Ubuntu-BI.ttf?f5964c636346fc736c3966c4c269dbc4);
 }
+
 @font-face {
   font-family: UbuntuRegular;
-  src: url("../fonts/Ubuntu-R.ttf");
+  src: url(/fonts/Ubuntu-R.ttf?876266dd154ec803f913455dc35bb3dc);
 }
+
 @font-face {
   font-family: UbuntuItalic;
-  src: url("../fonts/Ubuntu-I.ttf");
+  src: url(/fonts/Ubuntu-I.ttf?516b21b426975e506cc8f09c6184c8e8);
 }
+
 @font-face {
   font-family: HouseScript;
-  src: url("../fonts/SignPainter-HouseScript-Regular.ttf");
+  src: url(/fonts/SignPainter-HouseScript-Regular.ttf?feff963fc8b3ade0dc1d8413a44a476b);
 }
-/*MEDIA QUERIES*/
+
 /*---------------------------------------------*/
+
 /*GENERALES*/
+
 /*----------------------------------------------*/
+
 .m0 {
   margin: 0;
 }
@@ -115,6 +141,7 @@
 }
 
 /* margin 0.25rem */
+
 .m1 {
   margin: 0.25rem;
 }
@@ -146,6 +173,7 @@
 }
 
 /* margin 0.5rem */
+
 .m2 {
   margin: 0.5rem;
 }
@@ -177,6 +205,7 @@
 }
 
 /* margin 0.75rem */
+
 .m3 {
   margin: 0.75rem;
 }
@@ -208,6 +237,7 @@
 }
 
 /* margin 1rem */
+
 .m4 {
   margin: 1rem;
 }
@@ -239,6 +269,7 @@
 }
 
 /* margin 1.25rem */
+
 .m5 {
   margin: 1.25rem;
 }
@@ -270,6 +301,7 @@
 }
 
 /* margin 1.5rem */
+
 .m6 {
   margin: 1.5rem;
 }
@@ -301,6 +333,7 @@
 }
 
 /* margin 1.75rem */
+
 .m7 {
   margin: 1.75rem;
 }
@@ -332,6 +365,7 @@
 }
 
 /* margin 2rem */
+
 .m8 {
   margin: 2rem;
 }
@@ -363,6 +397,7 @@
 }
 
 /* margin 2.25rem */
+
 .m9 {
   margin: 2.25rem;
 }
@@ -394,6 +429,7 @@
 }
 
 /* margin 2.5rem */
+
 .m10 {
   margin: 2.5rem;
 }
@@ -425,6 +461,7 @@
 }
 
 /* margin 2.75rem */
+
 .m11 {
   margin: 2.75rem;
 }
@@ -456,6 +493,7 @@
 }
 
 /* margin 3rem */
+
 .m12 {
   margin: 3rem;
 }
@@ -487,6 +525,7 @@
 }
 
 /* margin 3.25rem */
+
 .m13 {
   margin: 3.25rem;
 }
@@ -518,6 +557,7 @@
 }
 
 /* margin 3.5rem */
+
 .m14 {
   margin: 3.5rem;
 }
@@ -549,6 +589,7 @@
 }
 
 /* margin 3.75rem */
+
 .m15 {
   margin: 3.75rem;
 }
@@ -580,6 +621,7 @@
 }
 
 /* margin 4rem */
+
 .m16 {
   margin: 4rem;
 }
@@ -611,6 +653,7 @@
 }
 
 /* margin 4.25rem */
+
 .m17 {
   margin: 4.25rem;
 }
@@ -642,6 +685,7 @@
 }
 
 /* margin 4.5rem */
+
 .m18 {
   margin: 4.5rem;
 }
@@ -673,6 +717,7 @@
 }
 
 /* margin 4.75rem */
+
 .m19 {
   margin: 4.75rem;
 }
@@ -704,6 +749,7 @@
 }
 
 /* margin 5rem */
+
 .m20 {
   margin: 5rem;
 }
@@ -735,6 +781,7 @@
 }
 
 /* margin 5.25rem */
+
 .m21 {
   margin: 5.25rem;
 }
@@ -766,6 +813,7 @@
 }
 
 /* margin 5.5rem */
+
 .m22 {
   margin: 5.5rem;
 }
@@ -797,6 +845,7 @@
 }
 
 /* margin 5.75rem */
+
 .m23 {
   margin: 5.75rem;
 }
@@ -828,6 +877,7 @@
 }
 
 /* margin 6rem */
+
 .m24 {
   margin: 6rem;
 }
@@ -859,6 +909,7 @@
 }
 
 /* margin 6.25rem */
+
 .m25 {
   margin: 6.25rem;
 }
@@ -890,6 +941,7 @@
 }
 
 /* margin 6.5rem */
+
 .m26 {
   margin: 6.5rem;
 }
@@ -921,6 +973,7 @@
 }
 
 /* margin 6.75rem */
+
 .m27 {
   margin: 6.75rem;
 }
@@ -952,6 +1005,7 @@
 }
 
 /* margin 7rem */
+
 .m28 {
   margin: 7rem;
 }
@@ -983,6 +1037,7 @@
 }
 
 /* margin 7.25rem */
+
 .m29 {
   margin: 7.25rem;
 }
@@ -1014,6 +1069,7 @@
 }
 
 /* margin 7.5rem */
+
 .m30 {
   margin: 7.5rem;
 }
@@ -1045,6 +1101,7 @@
 }
 
 /* margin 7.75rem */
+
 .m31 {
   margin: 7.75rem;
 }
@@ -1076,6 +1133,7 @@
 }
 
 /* margin 8rem */
+
 .m32 {
   margin: 8rem;
 }
@@ -1107,6 +1165,7 @@
 }
 
 /* margin 8.25rem */
+
 .m33 {
   margin: 8.25rem;
 }
@@ -1138,6 +1197,7 @@
 }
 
 /* margin 8.5rem */
+
 .m34 {
   margin: 8.5rem;
 }
@@ -1169,6 +1229,7 @@
 }
 
 /* margin 8.75rem */
+
 .m35 {
   margin: 8.75rem;
 }
@@ -1200,6 +1261,7 @@
 }
 
 /* margin 9rem */
+
 .m36 {
   margin: 9rem;
 }
@@ -1231,6 +1293,7 @@
 }
 
 /* margin 9.25rem */
+
 .m37 {
   margin: 9.25rem;
 }
@@ -1262,6 +1325,7 @@
 }
 
 /* margin 9.5rem */
+
 .m38 {
   margin: 9.5rem;
 }
@@ -1293,6 +1357,7 @@
 }
 
 /* margin 9.75rem */
+
 .m39 {
   margin: 9.75rem;
 }
@@ -1324,6 +1389,7 @@
 }
 
 /* margin 10rem */
+
 .m40 {
   margin: 10rem;
 }
@@ -1385,6 +1451,7 @@
 }
 
 /* padding 0.25rem */
+
 .p1 {
   padding: 0.25rem;
 }
@@ -1416,6 +1483,7 @@
 }
 
 /* padding 0.5rem */
+
 .p2 {
   padding: 0.5rem;
 }
@@ -1447,6 +1515,7 @@
 }
 
 /* padding 0.75rem */
+
 .p3 {
   padding: 0.75rem;
 }
@@ -1478,6 +1547,7 @@
 }
 
 /* padding 1rem */
+
 .p4 {
   padding: 1rem;
 }
@@ -1509,6 +1579,7 @@
 }
 
 /* padding 1.25rem */
+
 .p5 {
   padding: 1.25rem;
 }
@@ -1540,6 +1611,7 @@
 }
 
 /* padding 1.5rem */
+
 .p6 {
   padding: 1.5rem;
 }
@@ -1571,6 +1643,7 @@
 }
 
 /* padding 1.75rem */
+
 .p7 {
   padding: 1.75rem;
 }
@@ -1602,6 +1675,7 @@
 }
 
 /* padding 2rem */
+
 .p8 {
   padding: 2rem;
 }
@@ -1633,6 +1707,7 @@
 }
 
 /* padding 2.25rem */
+
 .p9 {
   padding: 2.25rem;
 }
@@ -1664,6 +1739,7 @@
 }
 
 /* padding 2.5rem */
+
 .p10 {
   padding: 2.5rem;
 }
@@ -1695,6 +1771,7 @@
 }
 
 /* padding 2.75rem */
+
 .p11 {
   padding: 2.75rem;
 }
@@ -1726,6 +1803,7 @@
 }
 
 /* padding 3rem */
+
 .p12 {
   padding: 3rem;
 }
@@ -1757,6 +1835,7 @@
 }
 
 /* padding 3.25rem */
+
 .p13 {
   padding: 3.25rem;
 }
@@ -1788,6 +1867,7 @@
 }
 
 /* padding 3.5rem */
+
 .p14 {
   padding: 3.5rem;
 }
@@ -1819,6 +1899,7 @@
 }
 
 /* padding 3.75rem */
+
 .p15 {
   padding: 3.75rem;
 }
@@ -1850,6 +1931,7 @@
 }
 
 /* padding 4rem */
+
 .p16 {
   padding: 4rem;
 }
@@ -1881,6 +1963,7 @@
 }
 
 /* padding 4.25rem */
+
 .p17 {
   padding: 4.25rem;
 }
@@ -1912,6 +1995,7 @@
 }
 
 /* padding 4.5rem */
+
 .p18 {
   padding: 4.5rem;
 }
@@ -1943,6 +2027,7 @@
 }
 
 /* padding 4.75rem */
+
 .p19 {
   padding: 4.75rem;
 }
@@ -1974,6 +2059,7 @@
 }
 
 /* padding 5rem */
+
 .p20 {
   padding: 5rem;
 }
@@ -2005,6 +2091,7 @@
 }
 
 /* padding 5.25rem */
+
 .p21 {
   padding: 5.25rem;
 }
@@ -2036,6 +2123,7 @@
 }
 
 /* padding 5.5rem */
+
 .p22 {
   padding: 5.5rem;
 }
@@ -2067,6 +2155,7 @@
 }
 
 /* padding 5.75rem */
+
 .p23 {
   padding: 5.75rem;
 }
@@ -2098,6 +2187,7 @@
 }
 
 /* padding 6rem */
+
 .p24 {
   padding: 6rem;
 }
@@ -2129,6 +2219,7 @@
 }
 
 /* padding 6.25rem */
+
 .p25 {
   padding: 6.25rem;
 }
@@ -2160,6 +2251,7 @@
 }
 
 /* padding 6.5rem */
+
 .p26 {
   padding: 6.5rem;
 }
@@ -2191,6 +2283,7 @@
 }
 
 /* padding 6.75rem */
+
 .p27 {
   padding: 6.75rem;
 }
@@ -2222,6 +2315,7 @@
 }
 
 /* padding 7rem */
+
 .p28 {
   padding: 7rem;
 }
@@ -2253,6 +2347,7 @@
 }
 
 /* padding 7.25rem */
+
 .p29 {
   padding: 7.25rem;
 }
@@ -2284,6 +2379,7 @@
 }
 
 /* padding 7.5rem */
+
 .p30 {
   padding: 7.5rem;
 }
@@ -2315,6 +2411,7 @@
 }
 
 /* padding 7.75rem */
+
 .p31 {
   padding: 7.75rem;
 }
@@ -2346,6 +2443,7 @@
 }
 
 /* padding 8rem */
+
 .p32 {
   padding: 8rem;
 }
@@ -2377,6 +2475,7 @@
 }
 
 /* padding 8.25rem */
+
 .p33 {
   padding: 8.25rem;
 }
@@ -2408,6 +2507,7 @@
 }
 
 /* padding 8.5rem */
+
 .p34 {
   padding: 8.5rem;
 }
@@ -2439,6 +2539,7 @@
 }
 
 /* padding 8.75rem */
+
 .p35 {
   padding: 8.75rem;
 }
@@ -2470,6 +2571,7 @@
 }
 
 /* padding 9rem */
+
 .p36 {
   padding: 9rem;
 }
@@ -2501,6 +2603,7 @@
 }
 
 /* padding 9.25rem */
+
 .p37 {
   padding: 9.25rem;
 }
@@ -2532,6 +2635,7 @@
 }
 
 /* padding 9.5rem */
+
 .p38 {
   padding: 9.5rem;
 }
@@ -2563,6 +2667,7 @@
 }
 
 /* padding 9.75rem */
+
 .p39 {
   padding: 9.75rem;
 }
@@ -2594,6 +2699,7 @@
 }
 
 /* padding 10rem */
+
 .p40 {
   padding: 10rem;
 }
@@ -2624,7 +2730,8 @@
   padding-bottom: 10rem;
 }
 
-a, a i {
+a,
+a i {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -2652,8 +2759,8 @@ body {
 }
 
 h1 {
-  color: #00A5E7 !important;
-  font-size: 4.2rem !important;
+  color: #00a5e7 !important;
+  font-size: 4.2rem;
   font-family: "GothamBold" !important;
 }
 
@@ -2667,8 +2774,11 @@ h4 {
 }
 
 /*---------------------------------------------*/
+
 /*HEADER*/
+
 /*----------------------------------------------*/
+
 header {
   padding: 20px 43px;
   position: fixed;
@@ -2715,20 +2825,21 @@ header ul.menu > li > a {
 
 header ul.menu > li > a:not(.rr-ss):hover {
   border: 2px solid white;
-  color: #00A5E7;
+  color: #00a5e7;
 }
 
 header ul.menu > li > a:hover i {
-  color: #00A5E7;
+  color: #00a5e7;
 }
 
-header ul.menu > li > a:not(.rr-ss):active, header ul.menu > li > a:not(.rr-ss):focus {
+header ul.menu > li > a:not(.rr-ss):active,
+header ul.menu > li > a:not(.rr-ss):focus {
   color: #EE4E23;
 }
 
 header ul.menu > li > a.rr-ss i {
-  font-size: 24px;
-  margin-top: -4px;
+  font-size: 18px;
+  margin-top: 0px;
 }
 
 header ul.menu > li > a.rr-ss {
@@ -2770,7 +2881,7 @@ header ul.sub-menu li:not(:first-child) {
 
 .close-menu-xs i {
   font-size: 2.3rem;
-  color: #00A5E7;
+  color: #00a5e7;
   margin-right: 16px;
 }
 
@@ -2793,8 +2904,8 @@ header ul.sub-menu li:not(:first-child) {
 .xs-row i {
   float: right;
   font-size: 3rem;
-  color: #00A5E7;
-  margin-top: 6px;
+  color: #00a5e7;
+  margin-top: 16px;
 }
 
 .btn-cont {
@@ -2830,12 +2941,12 @@ header ul.sub-menu li:not(:first-child) {
 
 .overlay-xs-menu li a.xs-btn {
   font-size: 1.8rem;
-  color: #00A5E7;
+  color: #00a5e7;
   font-family: "GothamBold";
 }
 
 .overlay-xs-menu li a.xs-btn:hover {
-  color: rgba(0, 165, 231, 0.5);
+  color: rgba(0, 165, 231, 0.8);
   text-decoration: none;
 }
 
@@ -2847,6 +2958,7 @@ header ul.sub-menu li:not(:first-child) {
   0% {
     height: 0;
   }
+
   100% {
     height: 100%;
   }
@@ -2856,10 +2968,12 @@ header ul.sub-menu li:not(:first-child) {
   0% {
     height: 0;
   }
+
   100% {
     height: 100%;
   }
 }
+
 .addBkground {
   background: rgba(45, 45, 45, 0.7);
 }
@@ -2869,24 +2983,28 @@ header ul.sub-menu li:not(:first-child) {
 }
 
 /*---------------------------------------------*/
+
 /*CONTENIDO*/
+
 /*----------------------------------------------*/
+
 .separator h1 {
-  color: #00A5E7;
+  color: #00a5e7;
   font-size: 4.5rem;
 }
 
 div.bkground {
   width: 100%;
   height: 100vh;
-  background: url(../img/bkground.jpg);
+  background: url(/images/bkground.jpg?8d5aaf2439fed05ae78a92b8685ffb68);
   position: relative;
   /* background-position: center; */
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-div.bkground > h1, div.bkground ul {
+div.bkground > h1,
+div.bkground ul {
   position: absolute;
   left: 0;
   right: 0;
@@ -2900,10 +3018,11 @@ div.bkground > h1, div.bkground ul {
 }
 
 div.bkground > h1 {
-  font-size: 5.4rem !important;
+  font-size: 5.4rem;
 }
 
-div.bkground > h1, div.bkground-bottom h1 {
+div.bkground > h1,
+div.bkground-bottom h1 {
   font-family: "GothamBook" !important;
   color: white !important;
 }
@@ -2918,7 +3037,10 @@ div.bkground ul li h2 span {
 
 div.bkground ul {
   top: 200px;
-  width: 994px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: rgba(225, 225, 225, 0.7);
 }
 
 div.bkground ul li {
@@ -2932,10 +3054,11 @@ div.bkground ul li h1 {
   color: white !important;
 }
 
-div.bkground ul li h1, div.bkground ul li h2 {
+div.bkground ul li h1,
+div.bkground ul li h2 {
   font-family: "GothamBold";
   text-align: left;
-  font-size: 3rem !important;
+  font-size: 3rem;
   margin: 0;
 }
 
@@ -2945,24 +3068,25 @@ div.bkground ul li {
 }
 
 div.bkground ul li:nth-child(1) {
-  background-color: #00A5E7;
+  background-color: #00a5e7;
   width: auto;
 }
 
 div.bkground ul li:nth-child(2) {
-  background-color: rgba(0, 165, 231, 0.5);
+  background-color: rgba(0, 165, 231, 0.8);
 }
 
 div.bkground ul li:nth-child(3) {
-  background-color: rgba(0, 165, 231, 0.8);
+  background-color: rgba(0, 165, 231, 0.5);
 }
 
 div.bkground ul li:nth-child(4) {
-  background-color: rgba(0, 165, 231, 0.8);
+  background-color: rgba(0, 165, 231, 0.1);
 }
 
 div.bkground ul li:nth-child(5) {
   background-color: white;
+  color: #00a5e7;
 }
 
 .img-row-btn ul li {
@@ -2975,20 +3099,20 @@ div.bkground ul li:nth-child(5) {
 }
 
 .img-row-btn ul li:nth-child(1) {
-  background-image: url("../img/img-row-btn/1.jpg");
+  background-image: url(/images/1.jpg?98dad2f9993ea885d4918eec7d960573);
   background-position: initial;
 }
 
 .img-row-btn ul li:nth-child(2) {
-  background-image: url("../img/img-row-btn/2.jpg");
+  background-image: url(/images/2.jpg?bc0e8084eeff641afa8033bfbda79294);
 }
 
 .img-row-btn ul li:nth-child(3) {
-  background-image: url("../img/img-row-btn/3.jpg");
+  background-image: url(/images/3.jpg?de0c0baab979b88b1177e7abd399ca1d);
 }
 
 .img-row-btn ul li:nth-child(4) {
-  background-image: url("../img/img-row-btn/4.jpg");
+  background-image: url(/images/4.jpg?266249a3c6a19812755731b36f0796a7);
 }
 
 .img-row-btn ul li .overlay {
@@ -3019,7 +3143,7 @@ div.bkground ul li:nth-child(5) {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  border: 2px solid #00A5E7;
+  border: 2px solid #00a5e7;
   width: 97px;
   opacity: 0;
   transition: all 0.3s ease-in-out;
@@ -3035,18 +3159,20 @@ div.bkground ul li:nth-child(5) {
   color: white;
 }
 
-.img-row-btn ul li:nth-child(1) .footer, .img-row-btn ul li:nth-child(3) .footer {
+.img-row-btn ul li:nth-child(1) .footer,
+.img-row-btn ul li:nth-child(3) .footer {
+  background-position: initial;
+  background-color: rgba(0, 165, 231, 0.8);
+}
+
+.img-row-btn ul li:nth-child(2) .footer,
+.img-row-btn ul li:nth-child(4) .footer {
   background-position: initial;
   background-color: rgba(0, 165, 231, 0.5);
 }
 
-.img-row-btn ul li:nth-child(2) .footer, .img-row-btn ul li:nth-child(4) .footer {
-  background-position: initial;
-  background-color: rgba(0, 165, 231, 0.9);
-}
-
 .nosotros .circle-img {
-  background-image: url("../img/jhon-doe.png");
+  background-image: url(/images/jhon-doe.png?135bd2c3c70b7a39c8a1e3a5a6b10c0b);
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -3056,7 +3182,9 @@ div.bkground ul li:nth-child(5) {
 }
 
 .nosotros ul {
-  width: 812px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
 }
@@ -3065,14 +3193,25 @@ div.bkground ul li:nth-child(5) {
   margin-left: 105px;
 }
 
+/*PHOTO COLASH*/
+
+.photo-colash img {
+  width: 100%;
+}
+
 /*BACKGROUND BOTTOM*/
+
 .bkground-bottom {
   position: relative;
-  background-image: url("../img/bk-bottom.jpg");
+  background-image: url(/images/bk-bottom.jpg?4cb7066da4586bf1ff01175c15e51576);
   width: 100%;
   height: 500px;
   background-position: center;
   background-size: cover;
+}
+
+.bkground-bottom {
+  border-top: 8px solid #00a5e7;
 }
 
 .bkground-bottom .logo-cont {
@@ -3097,8 +3236,12 @@ div.bkground ul li:nth-child(5) {
 }
 
 footer {
-  background-color: #00A5E7;
+  background-color: #00a5e7;
   font-family: "GothamBook";
+}
+
+footer.p5 {
+  padding-bottom: 1.5rem;
 }
 
 footer h4 {
@@ -3123,9 +3266,68 @@ footer ul li a i {
   font-size: 26px;
 }
 
+footer .logo {
+  margin-top: 5px;
+  width: 100px !important;
+}
+
+/*PROYECTOS*/
+
+#proyectos.bkground {
+  background-image: url(/images/bkground-proyectos.jpg?f50ce692427f9e1ba3c3801ba207d1ef);
+  height: 50vh;
+  background-position: center;
+}
+
+section#proyectos .row div.bkground-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 425px;
+}
+
+section#proyectos .row #uno.bkground-img {
+  background-image: url(/images/proy-1.jpg?4d88ed5dc8fd07999ffd23d641c5d41d);
+}
+
+section#proyectos .row #dos.bkground-img {
+  background-image: url(/images/proy-2.jpg?69cae384cf63debc534f164d850e50ec);
+}
+
+section#proyectos .row #tres.bkground-img {
+  background-image: url(/images/proy-3.jpg?c1f1d5ba86349407b74eadb9f7d2be4e);
+}
+
+section#proyectos .row #cuatro.bkground-img {
+  background-image: url(/images/proy-4.jpg?db589e8b3b6ab53a054bcbddcdbfd312);
+}
+
+section#proyectos .row h2 {
+  font-family: "GothamBold";
+  color: #00a5e7;
+}
+
+section#proyectos .row p {
+  font-family: "GothamBook";
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+section#proyectos p,
+section#proyectos h2 {
+  letter-spacing: 5px;
+}
+
+section#proyectos .descrip {
+  padding: 100px;
+}
+
 /*FIN MODAL TRABAJA CON NOSOTROS Y CONVERTITE CON COMERCILIZADOR */
+
 /*PRELOADER*/
-#preloader, #preloader-mailing {
+
+#preloader,
+#preloader-mailing {
   position: fixed;
   top: 0;
   left: 0;
@@ -3139,7 +3341,8 @@ footer ul li a i {
   text-align: center;
 }
 
-#preloader .confirm-container, #preloader-mailing .confirm-container {
+#preloader .confirm-container,
+#preloader-mailing .confirm-container {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -3150,14 +3353,16 @@ footer ul li a i {
   height: 100px;
 }
 
-#preloader img, #preloader-mailing img {
+#preloader img,
+#preloader-mailing img {
   width: 200px;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-#preloader .exito, #preloader-mailing .exito {
+#preloader .exito,
+#preloader-mailing .exito {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -3168,7 +3373,8 @@ footer ul li a i {
   height: 400px;
 }
 
-#status, #preloader-mailing #status {
+#status,
+#preloader-mailing #status {
   position: relative;
   /* left: 50%; */
   /* top: 50%; */
@@ -3192,6 +3398,7 @@ footer ul li a i {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -3201,7 +3408,186 @@ footer ul li a i {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 320px) and (max-width: 850px) {
+  header {
+    padding: initial;
+    padding-top: 15px;
+  }
+
+  .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  .container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  div.bkground > h1 {
+    font-size: 38px !important;
+  }
+
+  div.bkground ul li h1 {
+    font-size: 19px !important;
+  }
+
+  div.bkground ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  ul.flex {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .nosotros ul li:not(:nth-child(1)) {
+    margin-left: auto !important;
+  }
+
+  div.bkground > h1,
+  div.bkground ul {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 122px !important;
+    bottom: auto !important;
+    margin: auto;
+    height: 130px;
+    text-align: center;
+    color: white !important;
+    margin: auto;
+  }
+
+  div.bkground ul {
+    top: 239px !important;
+    background: none;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: 275px;
+  }
+
+  div.bkground ul li {
+    padding: 15px;
+    width: 91px;
+  }
+
+  div.bkground ul li:nth-child(1) h1 {
+    text-align: center !important;
+  }
+
+  div.bkground ul li:nth-child(1),
+  div.bkground ul li:nth-child(5) {
+    width: 273px !important;
+  }
+
+  div.bkground ul li:nth-child(4) {
+    background-color: rgba(0, 165, 231, 0.4);
+  }
+
+  div.bkground ul li:nth-child(3) {
+    background-color: rgba(0, 165, 231, 0.6);
+  }
+
+  div.bkground ul li h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .separator h1 {
+    font-size: 36px;
+  }
+
+  .img-row-btn ul li {
+    width: 100%;
+  }
+
+  .bkground-bottom img {
+    width: 180px !important;
+  }
+
+  footer ul {
+    margin: auto !important;
+    text-align: center;
+  }
+
+  footer ul li {
+    margin: auto !important;
+  }
+
+  footer ul li:not(:nth-child(1)) {
+    margin-top: 15px !important;
+  }
+
+  footer div.col-lg-8 h4 {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-top: 14px;
+  }
+
+  .separator h1.p30 {
+    padding: 45px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 420px) and (orientation: portrait) {
+  .nosotros.mb18 {
+    margin-bottom: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 850px) and (orientation: landscape) {
+  div.bkground {
+    height: 160vh;
+  }
+}
+
+@media only screen and (min-width: 10px) and (max-width: 1024px) {
+  div.bkground {
+    background-position: center !important;
+  }
+}
+
+@media only screen and (width: 1024px) {
+  div.bkground ul li:nth-child(5) h2 {
+    font-size: 2.788rem;
+  }
+
+  header a img.logo {
+    width: 250px !important;
+  }
+
+  footer div.col-lg-8 h4 {
+    font-size: 13px !important;
+    margin-top: 13px;
+  }
+
+  div.bkground ul li {
+    padding: 32px;
+    width: 159.359px;
+  }
+
+  .xs-row i {
+    font-size: 7.5rem;
+  }
+}
+

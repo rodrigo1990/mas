@@ -1,31 +1,189 @@
 /*MEDIA QUERIES*/
 
-@media only screen and (width: 320px){
-  
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 850px){
+
+	header {
+    padding: initial;
+    padding-top: 15px;
+	}
+
+	.row{
+	margin-right: 0px !important;
+     margin-left: 0px !important; 
+	}
+
+.container-fluid{
+	padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+h1{
+	font-size: 36px;
+}
+
+
+div.bkground>h1{
+	font-size: 38px !important;	
+}
+
+
+div.bkground ul li h1{
+	font-size: 19px !important;
+}
+
+div.bkground ul{
+	flex-direction:row;
+    flex-wrap:wrap;
+}
+
+
+ul.flex{
+	flex-direction:column;
+    flex-wrap: nowrap;
+}
+.nosotros ul li:not(:nth-child(1)) {
+    margin-left: auto !important;
+}
+
+
+
+
+div.bkground > h1, div.bkground ul {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 122px !important;
+    bottom: auto !important;
+    margin: auto;
+    height: 130px;
+    text-align: center;
+    color: white !important;
+    margin: auto;
+}
+
+div.bkground ul {
+   top: 239px !important;
+    background:none;
+    height: fit-content;
+        margin-left: auto;
+    margin-right: auto;
+    width: 275px;
+}
+
+div.bkground ul li {
+    padding: 15px;
+    width: 91px;
+}
+
+
+div.bkground ul li:nth-child(1) h1{
+    text-align: center !important
+    ;
+}
+
+div.bkground ul li:nth-child(1),div.bkground ul li:nth-child(5){
+    width: 273px !important;
+}
+
+div.bkground ul li:nth-child(4) {
+    background-color: rgba(0, 165, 231, 0.4);
+}
+
+div.bkground ul li:nth-child(3) {
+    background-color: rgba(0, 165, 231, 0.6);
+}
+ div.bkground ul li h2 {
+    font-size: 2rem;
+    text-align:center;
+}
+
+
+.separator h1 {
+    font-size: 36px;
+}
+
+.img-row-btn ul li {
+    width: 100%;
+}
+
+.bkground-bottom img{
+	width:180px !important;
+}
+
+footer ul{
+	margin:auto !important;
+	text-align: center;
 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 400px) and (orientation:portrait) {
+
+footer ul li{
+	margin:auto !important;
+	
+}
+
+footer ul li:not(:nth-child(1)){
+	margin-top:15px !important;
+	
+}
+
+footer div.col-lg-8 h4{
+   width: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-top: 14px;
+}
+
+.separator h1.p30{
+	padding:45px;
+}
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 420px) and (orientation:portrait) {
+
+.nosotros.mb18{
+	margin-bottom:10px !important;
+}
 
 
 }
 
 @media only screen and (min-width: 320px) and (max-width: 850px) and (orientation:landscape) {
+ 
+div.bkground {
+     height: 160vh;
+      
+}
+
 
 }
 
+
+@media only screen and (width: 320px){
+  
+
+}
 
 @media only screen and (min-width: 10px) and (max-width: 1024px)  {
+div.bkground {
+    background-position: center !important;
 
+}
 
 }
 
 
 
-@media only screen and (min-width: 320px) and (max-width: 768px){
 
-
-}
 
 
 
@@ -35,6 +193,32 @@
 
 
 @media only screen and (width: 1024px)  {
+
+div.bkground ul li:nth-child(5) h2 {
+    font-size: 2.788rem;
+}
+	
+
+
+header a img.logo{
+	width:250px !important;
+}
+
+footer div.col-lg-8 h4{
+    font-size: 13px !important;
+    margin-top: 13px;
+
+}
+
+
+div.bkground ul li {
+  padding: 32px;
+    width: 159.359px;
+}
+
+.xs-row i{
+    font-size: 7.5rem;
+}
 
 
 }

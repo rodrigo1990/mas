@@ -9,7 +9,7 @@
 
 
 @import 'fonts';
-@import 'querys';
+
 @import 'variables';
 
 /*---------------------------------------------*/
@@ -112,7 +112,7 @@ body{
 
 h1{
     color:$primary-color !important;
-    font-size: 4.2rem !important;
+    font-size: 4.2rem;
     font-family: $paragraph-bold-family !important;
 }
 
@@ -125,6 +125,8 @@ font-family: $paragraph-family !important;
 font-weight:bold !important;
 
 }
+
+
 /*---------------------------------------------*/
                 /*HEADER*/
 /*----------------------------------------------*/
@@ -204,8 +206,8 @@ header ul.menu>li>a i {
 }
 
 header ul.menu>li>a.rr-ss i{
-       font-size: 24px;
-    margin-top: -4px;
+   font-size: 18px;
+    margin-top: 0px;
 }
 
 
@@ -283,7 +285,7 @@ header ul.sub-menu li:not(:first-child){
     float: right;
     font-size: 3rem;
     color: $primary-color;
-    margin-top: 6px;
+    margin-top: 16px;
 }
 
 
@@ -397,7 +399,7 @@ div.bkground>h1, div.bkground ul{
 
 
 div.bkground>h1{
-    font-size: 5.4rem !important;
+    font-size: 5.4rem ;
 }
 
 div.bkground>h1,div.bkground-bottom h1{
@@ -424,7 +426,9 @@ div.bkground ul li h2 span{
 div.bkground ul{
 
     top:200px;
-    width: 994px;
+    width: fit-content;
+    background: rgba(225,225,225,0.7);
+
 
 
 }
@@ -449,7 +453,7 @@ div.bkground ul li h1{
 div.bkground ul li h1,div.bkground ul li h2{
      font-family: $paragraph-bold-family;
      text-align: left;
-       font-size: 3rem !important;
+       font-size: 3rem ;
        margin:0;
 
 }
@@ -480,12 +484,13 @@ div.bkground ul li:nth-child(3){
 
 
 div.bkground ul li:nth-child(4){
-     background-color:$third-color;
+     background-color:$quarter-color;
 
 }
 
 div.bkground ul li:nth-child(5){
      background-color:$fifth-color;
+     color:$primary-color;
 
 }
 
@@ -587,7 +592,7 @@ div.bkground ul li:nth-child(5){
 
 .img-row-btn ul li:nth-child(2) .footer,.img-row-btn ul li:nth-child(4) .footer{
     background-position: initial;
-    background-color: $quarter-color;
+    background-color: $third-color;
 }
 
 
@@ -603,13 +608,18 @@ div.bkground ul li:nth-child(5){
 
 
 .nosotros ul{
-        width: 812px;
+        width: fit-content;
         margin-left:auto;
         margin-right: auto;
 }
 
 .nosotros ul li:not(:nth-child(1)){
     margin-left:105px;
+}
+/*PHOTO COLASH*/
+
+.photo-colash img{
+    width:100%;
 }
 
 
@@ -622,6 +632,10 @@ div.bkground ul li:nth-child(5){
     height: 500px;
     background-position: center;
     background-size:cover;
+}
+
+.bkground-bottom {
+    border-top:8px solid $primary-color;
 }
 
 
@@ -650,9 +664,14 @@ footer{
 
 }
 
+footer.p5{
+    padding-bottom:1.50rem;
+}
+
 footer h4{
     color:$white;
     letter-spacing: 5px;
+
 }
 
 
@@ -674,6 +693,65 @@ footer ul li a i {
     font-size: 26px
 }
 
+
+footer .logo{
+    margin-top:5px;
+    width: 100px !important;
+}
+
+/*PROYECTOS*/
+
+#proyectos.bkground{
+    background-image:url('../img/bkground-proyectos.jpg');
+    height: 50vh;
+    background-position: center;
+}
+
+section#proyectos .row div.bkground-img{
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 425px;
+}
+
+section#proyectos .row #uno.bkground-img{
+    background-image:url('../img/proy-1.jpg');
+}
+
+section#proyectos .row #dos.bkground-img{
+    background-image:url('../img/proy-2.jpg');
+}
+
+section#proyectos .row #tres.bkground-img{
+    background-image:url('../img/proy-3.jpg');
+}
+
+section#proyectos .row #cuatro.bkground-img{
+    background-image:url('../img/proy-4.jpg');
+}
+
+section#proyectos .row h2{
+    font-family: $paragraph-bold-family;
+    color:$primary-color;
+
+}
+
+
+section#proyectos .row p{
+        font-family: $paragraph-family;
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+
+section#proyectos p,section#proyectos h2{
+    letter-spacing: 5px;
+} 
+
+
+section#proyectos .descrip{
+    padding:100px;
+}
 
 
 /*FIN MODAL TRABAJA CON NOSOTROS Y CONVERTITE CON COMERCILIZADOR */
@@ -748,7 +826,7 @@ footer ul li a i {
     100% { transform: rotate(360deg); }
 }
 
-
+@import 'querys';
 
 
 
