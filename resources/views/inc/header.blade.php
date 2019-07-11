@@ -16,7 +16,7 @@
 
 							<li class="">
 
-								<a href="https://www.facebook.com/argenpesos" target="_blank" class="float-left rr-ss"><i class="far fa-envelope"></i></a>
+								<a href="" target="_blank" class="float-left rr-ss"><i class="far fa-envelope"></i></a>
 								
 								<a href="https://www.facebook.com/argenpesos" target="_blank" class="float-left rr-ss"><i class="fab fa-facebook-f"></i></a>
 
@@ -44,11 +44,13 @@
 					<i class="fas fa-times"></i>
 				</a>
 			</div>
-			<li><a href="saca_tu_prestamo" class="xs-btn spa-btn">SACA TU PRÉSTAMO</a></li>
-			<li><a href="https://www.argenpesos.com.ar/micuenta/quiero-pagar.php"  class="xs-btn" >CONSULTÁ TU CUENTA</a></li>
-			<li><a href="sucursales" class="xs-btn spa-btn">NUESTRAS SUCURSALES</a></li>
+			<li><a href="" class="xs-btn spa-btn">PROYECTOS</a></li>
+			<li><a href="https://www.argenpesos.com.ar/micuenta/quiero-pagar.php"  class="xs-btn" >NOSOTROS</a></li>
+			<li><a href="sucursales" class="xs-btn spa-btn">COLABORÁ</a></li>
+			<li>
+				<a href="https://www.facebook.com/argenpesos" target="_blank" class="float-left rr-ss"><i class="fab fa-facebook-f"></i></a>
 
-			<li><a href="institucional" class="xs-btn spa-btn">INSTITUCIONAL</a></li>
 
-			<li><a href="resp_social" class="xs-btn spa-btn">RESPONSABILIDAD SOCIAL</a></li>
+				<a href="https://www.instagram.com/argenpesos/" target="_blank" class="float-left rr-ss"><i class="fab fa-instagram"></i></a>
+			</li>
 		</ul>

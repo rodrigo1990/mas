@@ -6,6 +6,8 @@
 
 window.$ = window.jQuery = require('jquery');
 require('./scripts/manejoDeMenus');
+require('./scripts/header-functions');
 require('../bootstrap-3.3.7-dist/js/bootstrap');
+
 
 

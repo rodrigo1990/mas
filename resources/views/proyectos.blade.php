@@ -18,47 +18,60 @@
 		</ul>
 	</div>
 	<div class="row">
-		<div class="col-lg-6 bkground-img" id="uno">
+		<div class="col-lg-6 col-sm-6  hidden-xs bkground-img col-push uno">
 			<!--  <img src="{{asset('img/proy-1-1.jpg')}}" alt="">-->
 		</div>
-		<div class="col-lg-6 descrip">
-			<h2>REVOLUCIÓN PELOTA</h2>
-			<p>Buscamos generar un impacto social a <br> traves del deporte.</p>
+		<div class="col-lg-6 col-sm-6 col-xs-12 descrip">
+			<div>
+				<h2 class="mt0">REVOLUCIÓN PELOTA</h2>
+				<p>Buscamos generar un impacto social a <br> traves del deporte.</p>
+			</div>
+		</div>
+		<div class="hidden-lg hidden-md col-sm-12 col-xs-12 hidden-sm bkground-img col-push uno">
+			<!--  <img src="{{asset('img/proy-1-1.jpg')}}" alt="">-->
 		</div>
 	</div>
 
 	<div class="row">
-		<div class="col-lg-6 descrip">
-			<h2>MÁS NUTRICIÓN</h2>
-			<p>Merendero Revolucionar: Somos parte de un <br> colectivo que busca que los chicos y chicas <br> 
-			del Barrio La Cava tengan su merienda.
-
+		<div class="col-lg-6 col-sm-6 col-xs-12 descrip">
+			<div>
+				<h2 class="mt0">MÁS NUTRICIÓN</h2>
+				<p>Merendero Revolucionar: Somos parte de un <br> colectivo que busca que los chicos y chicas <br> 
+				del Barrio La Cava tengan su merienda.
+			</div>
 			</p>
 		</div>
-		<div class="col-lg-6 bkground-img" id="dos">
+		<div class="col-lg-6 col-sm-6 col-xs-12 bkground-img dos" id="">
 			<!--  <img src="{{asset('img/proy-1-1.jpg')}}" alt="">-->
 		</div>
 		
 	</div>
 
 	<div class="row">
-		<div class="col-lg-6 bkground-img" id="tres">
+		<div class="col-lg-6 col-sm-6 hidden-xs bkground-img tres">
 			<!--  <img src="{{asset('img/proy-1-1.jpg')}}" alt="">-->
 		</div>
-		<div class="col-lg-6 descrip">
-			<h2>MÁS EDUCACIÓN</h2>
-			<p>Revolucion Tilcara: Generamos proyectos <br> hace mas de 10 años en comunidades y <br> escuelas de la Quebrada de Humahuaca <br> buscando que nunca falten útiles para que <br> los niños puedan estudiar.</p>
+		<div class="col-lg-6 col-sm-6 col-xs-12 descrip descrip-tres">
+			<div>
+				<h2 class="mt0">MÁS EDUCACIÓN</h2>
+				<p>Revolucion Tilcara: Generamos proyectos <br> hace mas de 10 años en comunidades y <br> escuelas de la Quebrada de Humahuaca <br> buscando que nunca falten útiles para que <br> los niños puedan estudiar.</p>
+			</div>
+		</div>
+		<div class="hidden-lg hidden-md col-xs-12 hidden-sm bkground-img tres">
+			<!--  <img src="{{asset('img/proy-1-1.jpg')}}" alt="">-->
 		</div>
 	</div>
 
 	<div class="row">
-		<div class="col-lg-6 descrip">
-			<h2>MÁS NUTRICIÓN</h2>
-			<p>A traves del arte y de la cultura tratamos de <br> recaudar fondos para costear parte de los <br> proyectos de Revolucionar.
+		<div class="col-lg-6 col-sm-6 col-xs-12 descrip">
+			<div>
+				<h2 class="mt0">MÁS NUTRICIÓN</h2>
+				<p>A traves del arte y de la cultura tratamos de <br> recaudar fondos para costear parte de los <br> proyectos de Revolucionar.
 
-			</p>
+				</p>
+			</div>
 		</div>
-		<div class="col-lg-6 bkground-img" id="cuatro">
+		<div class="col-lg-6 col-sm-6 col-xs-12 bkground-img cuatro" id="">
 			<!--  <img src="{{asset('img/proy-1-1.jpg')}}" alt="">-->
 		</div>
 		

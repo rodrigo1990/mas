@@ -12693,7 +12693,36 @@ window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jqu
 
 __webpack_require__(/*! ./scripts/manejoDeMenus */ "./resources/js/scripts/manejoDeMenus.js");
 
+__webpack_require__(/*! ./scripts/header-functions */ "./resources/js/scripts/header-functions.js");
+
 __webpack_require__(/*! ../bootstrap-3.3.7-dist/js/bootstrap */ "./resources/bootstrap-3.3.7-dist/js/bootstrap.js");
+
+/***/ }),
+
+/***/ "./resources/js/scripts/header-functions.js":
+/*!**************************************************!*\
+  !*** ./resources/js/scripts/header-functions.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+$(window).scroll(function (event) {
+  var scroll = $(window).scrollTop();
+
+  if (scroll == 0) {
+    $("header").removeClass("animated slideInDown");
+    $("header").removeClass("addBkground");
+    /*$(".xs-row").removeClass("addBkground");
+      $("header").addClass("removeBkground");
+      $(".xs-row").addClass("removeBkground");
+          $("header .logo").attr('src','img/logo-white.png');*/
+  } else {
+    //$(".xs-row").removeClass("removeBkground");
+    $("header").addClass("animated slideInDown");
+    $("header").addClass("addBkground"); //$("header .logo").attr('src','img/logo.png');
+  } // Do something
+
+});
 
 /***/ }),
 
@@ -12707,7 +12736,6 @@ __webpack_require__(/*! ../bootstrap-3.3.7-dist/js/bootstrap */ "./resources/boo
 $("#abrirMenu").click(function () {
   $("#xsMenu").removeClass('animated bounceOutRight');
   $("#xsMenu").addClass('animated bounceInRight');
-  $("#xsMenu").show();
 });
 $("#cerrarMenu").click(function () {
   $("#xsMenu").removeClass('animated bounceInRight');

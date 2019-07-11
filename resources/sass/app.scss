@@ -12,6 +12,8 @@
 
 @import 'variables';
 
+@import '../css/animate.css';
+
 /*---------------------------------------------*/
                 /*GENERALES*/
 /*----------------------------------------------*/
@@ -126,6 +128,14 @@ font-weight:bold !important;
 
 }
 
+a{
+ -webkit-transition: all 0.50s ease-in-out;
+  -moz-transition: all 0.50s ease-in-out;
+  -ms-transition: all 0.50s ease-in-out;
+  -o-transition: all 0.50s ease-in-out;
+  transition: all 0.50s ease-in-out;
+}
+
 
 /*---------------------------------------------*/
                 /*HEADER*/
@@ -185,6 +195,7 @@ header ul.menu>li>a {
 header ul.menu>li>a:not(.rr-ss):hover{
     border:2px solid white;
     color:$primary-color;
+    text-decoration: none;
 }
 
 
@@ -301,14 +312,13 @@ header ul.sub-menu li:not(:first-child){
     z-index: 50000;
     display: block;
         background-color: $overlay;
-    animation: openMenu 0.9s cubic-bezier(.19,1,.22,1) forwards;
     padding-left: 0;
     text-align: center;
-    display: none;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    display:none
 }
 
 .overlay-xs-menu li {
@@ -351,7 +361,18 @@ header ul.sub-menu li:not(:first-child){
 
 
 .addBkground{
-    background:rgba(45,45,45,0.70);
+    background:white;
+    box-shadow: -5px 10px 30px -24px rgba(0,0,0,0.75);
+}
+
+.addBkground #nav a{
+    color:grey !important;
+}
+
+.addBkground #nav a:not(.rr-ss):hover{
+    border:2px solid $primary-color;
+    color:$primary-color !important;
+    text-decoration: none;
 }
 
 .removeBkground{
@@ -670,7 +691,8 @@ footer.p5{
 
 footer h4{
     color:$white;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    font-size: 14px;
 
 }
 
@@ -690,68 +712,85 @@ footer ul li:not(:nth-child(1))   {
 
 footer ul li a i {
     color:white;
-    font-size: 26px
+        font-size: 21px;
 }
 
 
 footer .logo{
     margin-top:5px;
-    width: 100px !important;
+    width: 84px !important;
 }
 
 /*PROYECTOS*/
 
 #proyectos.bkground{
     background-image:url('../img/bkground-proyectos.jpg');
-    height: 50vh;
+        height: auto;
     background-position: center;
+    padding: 313px;
 }
+
+$altura-imagen:488px;
 
 section#proyectos .row div.bkground-img{
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
-    height: 425px;
+       height: $altura-imagen;
 }
 
-section#proyectos .row #uno.bkground-img{
+
+section#proyectos .descrip{
+    padding:100px;
+    height: $altura-imagen;
+}
+
+section#proyectos .row .uno.bkground-img{
     background-image:url('../img/proy-1.jpg');
 }
 
-section#proyectos .row #dos.bkground-img{
+section#proyectos .row .dos.bkground-img{
     background-image:url('../img/proy-2.jpg');
 }
 
-section#proyectos .row #tres.bkground-img{
+section#proyectos .row .tres.bkground-img{
     background-image:url('../img/proy-3.jpg');
 }
 
-section#proyectos .row #cuatro.bkground-img{
+section#proyectos .row .cuatro.bkground-img{
     background-image:url('../img/proy-4.jpg');
+    background-position-y: -77px;
 }
 
 section#proyectos .row h2{
     font-family: $paragraph-bold-family;
     color:$primary-color;
+    font-size: 3.3rem;
 
 }
 
 
 section#proyectos .row p{
         font-family: $paragraph-family;
-    font-weight: bolder;
     font-size: 15px;
-    
+    letter-spacing: 3px;
 }
 
-section#proyectos p,section#proyectos h2{
+section#proyectos .row ul li h2 {
     letter-spacing: 5px;
-} 
-
-
-section#proyectos .descrip{
-    padding:100px;
 }
+
+
+
+
+section#proyectos .descrip>div{
+    width: fit-content;
+    height: fit-content;
+    position:absolute;
+    @include center-abs;
+}
+
+
 
 
 /*FIN MODAL TRABAJA CON NOSOTROS Y CONVERTITE CON COMERCILIZADOR */
