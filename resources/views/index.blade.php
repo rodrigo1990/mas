@@ -3,6 +3,7 @@
 @include('inc.header')
 
 @section('content')
+<section id="index">
 <div class="bkground">
 	<h1><b>M</b>ovimiento de <b>A</b>cción <b>S</b>ocial</h1>
 
@@ -23,16 +24,16 @@
 <div class="row img-row-btn mt0">
 	<div class="container-fluid">
 		<ul class="flex">
-			<li><div class="overlay"><h4 class="text-center p5">VER +</h4></div><div  class="footer"><h4 class="text-center m0 p5">REVOLUCIÓN PELOTA</h4></div></li>
-			<li><div class="overlay"><h4 class="text-center p5">VER +</h4></div><div  class="footer"><h4 class="text-center m0 p5">MÁS NUTRICIÓN</h4></li>
-			<li><div class="overlay"><h4 class="text-center p5">VER +</h4></div><div  class="footer"><h4 class="text-center m0 p5">MÁS EDUCACIÓN</h4></li>
-			<li><div class="overlay"><h4 class="text-center p5">VER +</h4></div><div  class="footer"><h4 class="text-center m0 p5">MÁS ARTE</h4></li>
+			<li><div class="overlay"><a href="/pelota"><h4 class="text-center p5">VER +</h4></a></div><div  class="footer"><h4 class="text-center m0 p5">REVOLUCIÓN PELOTA</h4></div></li>
+			<li><div class="overlay"><a href="/nutricion"><h4 class="text-center p5">VER +</h4></a></div><div  class="footer"><h4 class="text-center m0 p5">MÁS NUTRICIÓN</h4></li>
+			<li><div class="overlay"><a href="/educacion"><h4 class="text-center p5">VER +</h4></a></div><div  class="footer"><h4 class="text-center m0 p5">MÁS EDUCACIÓN</h4></li>
+			<li><div class="overlay"><a href="/arte"><h4 class="text-center p5">VER +</h4></a></div><div  class="footer"><h4 class="text-center m0 p5">MÁS ARTE</h4></li>
 		</ul>
 	</div>
 </div>
 
 
-<div class="row nosotros mt0 p10 mb18">
+<div class="row nosotros mt0 p10 mb18" id="nosotros">
 	<div class="container">
 		<h1 class="text-center mt17 mb10">NOSOTROS</h1>
 		<ul class="flex mt20 mb20">
@@ -59,7 +60,7 @@
 <div class="row photo-colash">
 	<img class="center-block" src="{{asset('img/Mas_img_pie.jpg')}}" alt="">
 </div>
-
+</section>
 
 
 @include('inc.bkground-bottom')

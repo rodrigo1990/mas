@@ -916,7 +916,6 @@
 .bounceInRight {
   -webkit-animation-name: bounceInRight;
   animation-name: bounceInRight;
-  display:block !important;
 }
 
 @-webkit-keyframes bounceInUp {
@@ -1188,7 +1187,6 @@
 }
 
 .fadeIn {
-  display:block !important;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
@@ -6028,6 +6026,11 @@ header ul.sub-menu li:not(:first-child) {
   border-top: 1px solid white;
 }
 
+#xsMenu .rr-ss i {
+  font-size: 20px;
+  color: #00a5e7;
+}
+
 .close-menu-xs {
   float: right;
   margin-top: 4%;
@@ -6060,7 +6063,7 @@ header ul.sub-menu li:not(:first-child) {
   float: right;
   font-size: 3rem;
   color: #00a5e7;
-  margin-top: 16px;
+  margin-top: 10px;
 }
 
 .btn-cont {
@@ -6145,12 +6148,6 @@ header ul.sub-menu li:not(:first-child) {
 .removeBkground {
   background: transparent;
 }
-
-/*---------------------------------------------*/
-
-/*CONTENIDO*/
-
-/*----------------------------------------------*/
 
 .separator h1 {
   color: #00a5e7;
@@ -6295,6 +6292,11 @@ div.bkground ul li:nth-child(5) {
   opacity: 1;
 }
 
+.img-row-btn ul li a:hover h4 {
+  background: #00a5e7;
+  color: white;
+}
+
 .img-row-btn ul li .overlay h4 {
   color: white;
   position: absolute;
@@ -6308,6 +6310,7 @@ div.bkground ul li:nth-child(5) {
   height: -moz-fit-content;
   height: fit-content;
   border: 2px solid #00a5e7;
+  border-radius: 4px;
   width: 97px;
   opacity: 0;
   transition: all 0.3s ease-in-out;
@@ -6399,47 +6402,10 @@ div.bkground ul li:nth-child(5) {
   margin-right: auto;
 }
 
-footer {
-  background-color: #00a5e7;
-  font-family: "GothamBook";
-}
-
-footer.p5 {
-  padding-bottom: 1.5rem;
-}
-
-footer h4 {
-  color: white;
-  letter-spacing: 3px;
-  font-size: 14px;
-}
-
-footer ul {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: auto;
-}
-
-footer ul li:not(:nth-child(1)) {
-  margin-top: 8px;
-  margin-left: 25px;
-}
-
-footer ul li a i {
-  color: white;
-  font-size: 21px;
-}
-
-footer .logo {
-  margin-top: 5px;
-  width: 84px !important;
-}
-
 /*PROYECTOS*/
 
 #proyectos.bkground {
-  background-image: url(/images/bkground-proyectos.jpg?f50ce692427f9e1ba3c3801ba207d1ef);
+  background-image: url(/images/bkground-proyectos.jpg?15fd35ac209ea12a650bbbf5b43075fe);
   height: auto;
   background-position: center;
   padding: 313px;
@@ -6505,7 +6471,51 @@ section#proyectos .descrip > div {
   margin: auto;
 }
 
-/*FIN MODAL TRABAJA CON NOSOTROS Y CONVERTITE CON COMERCILIZADOR */
+footer {
+  background-color: #00a5e7;
+  font-family: "GothamBook";
+}
+
+footer.p5 {
+  padding-bottom: 1.5rem;
+}
+
+footer h4 {
+  color: white;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+footer ul {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+footer ul li:not(:nth-child(1)) {
+  margin-top: 8px;
+  margin-left: 25px;
+}
+
+footer ul li a i {
+  color: white;
+  font-size: 21px;
+}
+
+footer ul li a:hover i {
+  color: lightgrey;
+}
+
+footer ul li a:hover img.logo {
+  -webkit-filter: grayscale(5);
+          filter: grayscale(5);
+}
+
+footer .logo {
+  margin-top: 5px;
+  width: 84px !important;
+}
 
 /*PRELOADER*/
 
@@ -6617,6 +6627,13 @@ section#proyectos .descrip > div {
   header {
     padding: initial;
     padding-top: 15px;
+    padding-bottom: 15px;
+    height: auto;
+  }
+
+  .xs-row img.logo {
+    margin-top: 7px;
+    width: 106px !important;
   }
 
   .row {
@@ -6738,7 +6755,8 @@ section#proyectos .descrip > div {
     width: fit-content;
     text-align: center;
     margin: auto;
-    margin-top: 14px;
+    margin-bottom: 11px;
+    margin-top: 6px;
   }
 
   .separator h1.p30 {

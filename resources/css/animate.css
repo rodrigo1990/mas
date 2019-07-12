@@ -1067,7 +1067,6 @@
 .bounceInRight {
   -webkit-animation-name: bounceInRight;
   animation-name: bounceInRight;
-  display:block !important;
 }
 
 @-webkit-keyframes bounceInUp {
@@ -1375,7 +1374,6 @@
 }
 
 .fadeIn {
-  display:block !important;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }

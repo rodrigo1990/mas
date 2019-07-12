@@ -1,0 +1,297 @@
+
+.separator h1{
+    color:$primary-color;
+    font-size: 4.5rem;
+}
+
+div.bkground{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bkground.jpg);
+    position: relative;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+div.bkground>h1, div.bkground ul{
+       position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 130px;
+    text-align: center;
+    color: white !important;
+    margin:auto;
+    
+}
+
+
+
+div.bkground>h1{
+    font-size: 5.4rem ;
+}
+
+div.bkground>h1,div.bkground-bottom h1{
+   font-family: $paragraph-family !important; 
+       
+       color:white !important;
+
+}
+
+
+div.bkground>h1>b{
+   font-weight: bolder;
+
+}
+
+
+div.bkground ul li h2 span{
+   font-family: $paragraph-family !important; 
+    
+
+}
+
+
+div.bkground ul{
+
+    top:200px;
+    width: fit-content;
+    background: rgba(225,225,225,0.7);
+
+
+
+}
+
+div.bkground ul li {
+//padding:50px;
+list-style:none
+}
+
+div.bkground ul li h1{
+
+    font-family: $paragraph-bold-family !important;
+     text-align: left;
+       font-size: 4rem;
+
+
+       color:$white !important;
+
+}
+
+
+div.bkground ul li h1,div.bkground ul li h2{
+     font-family: $paragraph-bold-family;
+     text-align: left;
+       font-size: 3rem ;
+       margin:0;
+
+}
+
+
+div.bkground ul li{
+     padding:30px;
+     width: 178.359px;
+
+}
+
+div.bkground ul li:nth-child(1){
+     background-color:$primary-color;
+     width: auto;
+
+}
+
+div.bkground ul li:nth-child(2){
+     background-color:$secondary-color;
+
+
+}
+
+div.bkground ul li:nth-child(3){
+     background-color:$third-color;
+
+}
+
+
+div.bkground ul li:nth-child(4){
+     background-color:$quarter-color;
+
+}
+
+div.bkground ul li:nth-child(5){
+     background-color:$fifth-color;
+     color:$primary-color;
+
+}
+
+.img-row-btn ul li{
+        width: 25%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position:relative;
+
+}
+
+
+.img-row-btn ul li{
+
+}
+
+.img-row-btn ul li:nth-child(1){
+    background-image:url('../img/img-row-btn/1.jpg');
+    background-position: initial;
+
+}
+
+.img-row-btn ul li:nth-child(2){
+    background-image:url('../img/img-row-btn/2.jpg');
+
+}
+
+
+.img-row-btn ul li:nth-child(3){
+    background-image:url('../img/img-row-btn/3.jpg');
+
+}
+
+
+.img-row-btn ul li:nth-child(4){
+    background-image:url('../img/img-row-btn/4.jpg');
+
+}
+
+
+.img-row-btn ul li .overlay{
+    position:absolute;
+    background:$dark-overlay;
+    width: 100%;
+    height: 0%;
+         -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  transition: all 0.30s ease-in-out;
+}
+
+
+.img-row-btn ul li:hover .overlay{
+        height: 256px;
+}
+
+.img-row-btn ul li:hover .overlay h4{
+    opacity: 1;
+}
+
+
+.img-row-btn ul li a:hover  h4{
+    background:$primary-color;
+    color:white;
+}
+    
+.img-row-btn ul li .overlay h4{
+    color:$white;
+    position:absolute;
+    margin:auto;
+    @include center-abs;
+    height: fit-content;
+    border:2px solid $primary-color ;
+    border-radius:4px;
+    width: 97px;
+    opacity: 0;
+           -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  transition: all 0.30s ease-in-out;
+
+}
+
+
+
+.img-row-btn ul li .footer{
+    bottom:0;
+    position:absolute;
+    width: 100%;
+}
+
+.img-row-btn ul li .footer h4{
+    color:white;
+}
+
+.img-row-btn ul li:nth-child(1) .footer,.img-row-btn ul li:nth-child(3) .footer{
+    background-position: initial;
+    background-color: $secondary-color;
+
+}
+
+.img-row-btn ul li:nth-child(2) .footer,.img-row-btn ul li:nth-child(4) .footer{
+    background-position: initial;
+    background-color: $third-color;
+}
+
+
+.nosotros .circle-img{
+    background-image:url('../img/jhon-doe.png');
+    width:200px;
+    height: 200px;
+    border-radius:50%;
+    background-position:center;
+    border:10px solid $sixth-color;
+    background-size: cover;
+}
+
+
+.nosotros ul{
+        width: fit-content;
+        margin-left:auto;
+        margin-right: auto;
+}
+
+.nosotros ul li:not(:nth-child(1)){
+    margin-left:105px;
+}
+/*PHOTO COLASH*/
+
+.photo-colash img{
+    width:100%;
+}
+
+
+/*BACKGROUND BOTTOM*/
+
+.bkground-bottom{
+    position:relative;
+    background-image:url('../img/bk-bottom.jpg');
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size:cover;
+}
+
+.bkground-bottom {
+    border-top:8px solid $primary-color;
+}
+
+
+.bkground-bottom .logo-cont {
+    position:absolute;
+    @include center-abs;
+    width: fit-content;
+    height: fit-content;
+
+
+
+ }
+
+
+
+ .bkground-bottom .logo-cont img {
+    width: 300px;
+    margin-left:auto;
+    margin-right:auto;
+ }

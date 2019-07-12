@@ -12681,21 +12681,35 @@ if (typeof jQuery === 'undefined') {
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
   \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _scripts_scroll_animation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scripts/scroll-animation */ "./resources/js/scripts/scroll-animation.js");
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
+
 window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
-__webpack_require__(/*! ./scripts/manejoDeMenus */ "./resources/js/scripts/manejoDeMenus.js");
+__webpack_require__(/*! ../bootstrap-3.3.7-dist/js/bootstrap */ "./resources/bootstrap-3.3.7-dist/js/bootstrap.js");
 
 __webpack_require__(/*! ./scripts/header-functions */ "./resources/js/scripts/header-functions.js");
 
-__webpack_require__(/*! ../bootstrap-3.3.7-dist/js/bootstrap */ "./resources/bootstrap-3.3.7-dist/js/bootstrap.js");
+__webpack_require__(/*! ./scripts/manejoDeMenus */ "./resources/js/scripts/manejoDeMenus.js");
+
+if (document.getElementById('proyectos')) {
+  __webpack_require__(/*! ./scripts/switch-to-id */ "./resources/js/scripts/switch-to-id.js");
+}
+
+if (document.getElementById('index')) {
+  $("#nosotros-btn").click(function () {
+    Object(_scripts_scroll_animation__WEBPACK_IMPORTED_MODULE_0__["scrollAnimate"])('nosotros');
+  });
+}
 
 /***/ }),
 
@@ -12712,12 +12726,15 @@ $(window).scroll(function (event) {
   if (scroll == 0) {
     $("header").removeClass("animated slideInDown");
     $("header").removeClass("addBkground");
+    $("header").removeClass("removeBkground");
+    $("header #logo-btn img").attr('src', 'img/logo-white.svg');
     /*$(".xs-row").removeClass("addBkground");
       $("header").addClass("removeBkground");
       $(".xs-row").addClass("removeBkground");
           $("header .logo").attr('src','img/logo-white.png');*/
   } else {
-    //$(".xs-row").removeClass("removeBkground");
+    $("header #logo-btn img").attr('src', 'img/logo-blue.svg'); //$(".xs-row").removeClass("removeBkground");
+
     $("header").addClass("animated slideInDown");
     $("header").addClass("addBkground"); //$("header .logo").attr('src','img/logo.png');
   } // Do something
@@ -12736,6 +12753,7 @@ $(window).scroll(function (event) {
 $("#abrirMenu").click(function () {
   $("#xsMenu").removeClass('animated bounceOutRight');
   $("#xsMenu").addClass('animated bounceInRight');
+  $("#xsMenu").show();
 });
 $("#cerrarMenu").click(function () {
   $("#xsMenu").removeClass('animated bounceInRight');
@@ -12744,6 +12762,60 @@ $("#cerrarMenu").click(function () {
 $("#xsMenu  li a").click(function () {
   $("#xsMenu").addClass("animated bounceOutRight");
 });
+
+/***/ }),
+
+/***/ "./resources/js/scripts/scroll-animation.js":
+/*!**************************************************!*\
+  !*** ./resources/js/scripts/scroll-animation.js ***!
+  \**************************************************/
+/*! exports provided: scrollAnimate */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "scrollAnimate", function() { return scrollAnimate; });
+function scrollAnimate(id) {
+  $('html,body').animate({
+    scrollTop: $('#' + id + '').offset().top - 100
+  }, 'slow');
+}
+
+/***/ }),
+
+/***/ "./resources/js/scripts/switch-to-id.js":
+/*!**********************************************!*\
+  !*** ./resources/js/scripts/switch-to-id.js ***!
+  \**********************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _scroll_animation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scroll-animation */ "./resources/js/scripts/scroll-animation.js");
+
+var url = window.location.pathname; // Returns path only (/path/example.html)
+
+switch (url) {
+  case '/pelota':
+    Object(_scroll_animation__WEBPACK_IMPORTED_MODULE_0__["scrollAnimate"])('pelota');
+    break;
+
+  case '/nutricion':
+    Object(_scroll_animation__WEBPACK_IMPORTED_MODULE_0__["scrollAnimate"])('nutricion');
+    break;
+
+  case '/educacion':
+    Object(_scroll_animation__WEBPACK_IMPORTED_MODULE_0__["scrollAnimate"])('educacion');
+    break;
+
+  case '/arte':
+    Object(_scroll_animation__WEBPACK_IMPORTED_MODULE_0__["scrollAnimate"])('arte');
+    break;
+
+  default: // code block
+
+}
 
 /***/ }),
 

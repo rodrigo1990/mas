@@ -1,0 +1,55 @@
+
+footer{
+    background-color:$primary-color;
+    font-family: $paragraph-family;
+
+}
+
+footer.p5{
+    padding-bottom:1.50rem;
+}
+
+footer h4{
+    color:$white;
+    letter-spacing: 3px;
+    font-size: 14px;
+
+}
+
+
+footer ul{
+    width:fit-content;
+    margin:auto;
+}
+
+footer ul li:not(:nth-child(1))   {
+    margin-top:8px;
+    margin-left:25px;
+}
+
+
+
+
+footer ul li a i {
+    color:white;
+        font-size: 21px;
+}
+
+
+footer ul li a:hover i {
+    color:lightgrey;
+}
+
+footer ul li a:hover img.logo {
+    filter:grayscale(5);
+}
+
+
+
+
+footer .logo{
+    margin-top:5px;
+    width: 84px !important;
+}
+
+

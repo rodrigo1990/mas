@@ -2,6 +2,7 @@ $("#abrirMenu").click(function(){
 
 		$("#xsMenu").removeClass('animated bounceOutRight');
 		$("#xsMenu").addClass('animated bounceInRight');
+		$("#xsMenu").show();
 
 
 });

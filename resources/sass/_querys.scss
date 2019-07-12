@@ -20,7 +20,15 @@
 	header {
     padding: initial;
     padding-top: 15px;
+    padding-bottom:15px;
+    height: auto;
 	}
+
+
+.xs-row img.logo{
+    margin-top:7px;
+        width: 106px !important;
+}
 
 	.row{
 	margin-right: 0px !important;
@@ -146,7 +154,8 @@ footer div.col-lg-8 h4{
    width: fit-content;
     text-align: center;
     margin: auto;
-    margin-top: 14px;
+    margin-bottom: 11px;
+    margin-top: 6px;
 }
 
 .separator h1.p30{

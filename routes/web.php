@@ -24,3 +24,25 @@ Route::get('/index', function () {
 Route::get('/proyectos', function () {
     return view('proyectos');
 });
+
+
+
+Route::get('/pelota', function () {
+    return view('proyectos',['rev_pelota'=>'true']);
+});
+
+
+Route::get('/nutricion', function () {
+    return view('proyectos',['nutricion'=>'true']);
+});
+
+
+
+Route::get('/educacion', function () {
+    return view('proyectos',['educacion'=>'true']);
+});
+
+
+Route::get('/arte', function () {
+    return view('proyectos',['arte'=>'true']);
+});

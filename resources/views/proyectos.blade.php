@@ -17,14 +17,14 @@
 			<li><h2><span>OTRO</span> <br> MONTO</h2></li>
 		</ul>
 	</div>
-	<div class="row">
+	<div class="row" id="pelota">
 		<div class="col-lg-6 col-sm-6  hidden-xs bkground-img col-push uno">
 			<!--  <img src="{{asset('img/proy-1-1.jpg')}}" alt="">-->
 		</div>
 		<div class="col-lg-6 col-sm-6 col-xs-12 descrip">
 			<div>
 				<h2 class="mt0">REVOLUCIÓN PELOTA</h2>
-				<p>Buscamos generar un impacto social a <br> traves del deporte.</p>
+				<p>Buscamos generar un impacto social a <br> través del deporte.</p>
 			</div>
 		</div>
 		<div class="hidden-lg hidden-md col-sm-12 col-xs-12 hidden-sm bkground-img col-push uno">
@@ -32,7 +32,7 @@
 		</div>
 	</div>
 
-	<div class="row">
+	<div class="row" id="nutricion">
 		<div class="col-lg-6 col-sm-6 col-xs-12 descrip">
 			<div>
 				<h2 class="mt0">MÁS NUTRICIÓN</h2>
@@ -47,14 +47,14 @@
 		
 	</div>
 
-	<div class="row">
+	<div class="row" id="educacion">
 		<div class="col-lg-6 col-sm-6 hidden-xs bkground-img tres">
 			<!--  <img src="{{asset('img/proy-1-1.jpg')}}" alt="">-->
 		</div>
 		<div class="col-lg-6 col-sm-6 col-xs-12 descrip descrip-tres">
 			<div>
 				<h2 class="mt0">MÁS EDUCACIÓN</h2>
-				<p>Revolucion Tilcara: Generamos proyectos <br> hace mas de 10 años en comunidades y <br> escuelas de la Quebrada de Humahuaca <br> buscando que nunca falten útiles para que <br> los niños puedan estudiar.</p>
+				<p>Revolución Tilcara: Generamos proyectos <br> hace mas de 10 años en comunidades y <br> escuelas de la Quebrada de Humahuaca <br> buscando que nunca falten útiles para que <br> los niños puedan estudiar.</p>
 			</div>
 		</div>
 		<div class="hidden-lg hidden-md col-xs-12 hidden-sm bkground-img tres">
@@ -62,11 +62,11 @@
 		</div>
 	</div>
 
-	<div class="row">
+	<div class="row" id="arte">
 		<div class="col-lg-6 col-sm-6 col-xs-12 descrip">
 			<div>
-				<h2 class="mt0">MÁS NUTRICIÓN</h2>
-				<p>A traves del arte y de la cultura tratamos de <br> recaudar fondos para costear parte de los <br> proyectos de Revolucionar.
+				<h2 class="mt0">MÁS ARTE</h2>
+				<p>A través del arte y de la cultura tratamos de <br> recaudar fondos para costear parte de los <br> proyectos de Revolucionar.
 
 				</p>
 			</div>

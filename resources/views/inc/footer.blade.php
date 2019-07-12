@@ -1,27 +1,38 @@
+	<?php 
+	$fb = "https://www.facebook.com/119955871504104/";
+	$ig = "https://instagram.com/revolucionpelota?igshid=139dahradwvz3";
+	$email = "info@movimientomas.org"
+
+
+
+ ?>
 <footer class="p5">
 	<div class="row">
 				<div class="container">
+					<div class="col-lg-8 col-md-8">
+				<h4 class="m0 mt4 text-right">Merendero MAS Movimiento de Acción Social - 2019</h4>
+			</div>
 					<div class="col-lg-4 col-md-4">
-				<ul class="flex mr0">
+				<ul class="flex ml0">
 					<li>
-						<img class="logo" src="{{asset('img/logo-white.svg')}}" alt="">
+						<a href="index">
+							<img class="logo" src="{{asset('img/logo-white.svg')}}" alt="">
+						</a>
 					</li>
 					
-					<li><a href="mailTo:">
+					<li><a href="mailTo:{{$email}}">
 						<i><i class="far fa-envelope"></i></i>
 					</a></li>
 
 					<li>
-						<a href="https://www.facebook.com/argenpesos" target="_blank" class="float-left rr-ss"><i class="fab fa-facebook-f"></i></a>
+						<a href="{{$fb}}" target="_blank" class="float-left rr-ss"><i class="fab fa-facebook-f"></i></a>
 					</li>
 
-					<li><a href="https://www.instagram.com/argenpesos/" target="_blank" class="float-left rr-ss"><i class="fab fa-instagram"></i></a></li></li>
+					<li><a href="{{$ig}}" target="_blank" class="float-left rr-ss"><i class="fab fa-instagram"></i></a></li></li>
 					
 				</ul>
 			</div>
-			<div class="col-lg-8 col-md-8">
-				<h4 class="m0 mt4 text-left">Merendero MAS Movimiento de Acción Social - 2019</h4>
-			</div>
+			
 		</div>
 	</div>
 	

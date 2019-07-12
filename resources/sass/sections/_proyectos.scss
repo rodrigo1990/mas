@@ -1,0 +1,68 @@
+/*PROYECTOS*/
+
+#proyectos.bkground{
+    background-image:url('../img/bkground-proyectos.jpg');
+        height: auto;
+    background-position: center;
+    padding: 313px;
+}
+
+$altura-imagen:488px;
+
+section#proyectos .row div.bkground-img{
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+       height: $altura-imagen;
+}
+
+
+section#proyectos .descrip{
+    padding:100px;
+    height: $altura-imagen;
+}
+
+section#proyectos .row .uno.bkground-img{
+    background-image:url('../img/proy-1.jpg');
+}
+
+section#proyectos .row .dos.bkground-img{
+    background-image:url('../img/proy-2.jpg');
+}
+
+section#proyectos .row .tres.bkground-img{
+    background-image:url('../img/proy-3.jpg');
+}
+
+section#proyectos .row .cuatro.bkground-img{
+    background-image:url('../img/proy-4.jpg');
+    background-position-y: -77px;
+}
+
+section#proyectos .row h2{
+    font-family: $paragraph-bold-family;
+    color:$primary-color;
+    font-size: 3.3rem;
+
+}
+
+
+section#proyectos .row p{
+        font-family: $paragraph-family;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+section#proyectos .row ul li h2 {
+    letter-spacing: 5px;
+}
+
+
+
+
+section#proyectos .descrip>div{
+    width: fit-content;
+    height: fit-content;
+    position:absolute;
+    @include center-abs;
+}
