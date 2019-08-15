@@ -1,8 +1,6 @@
 @extends('layouts.main')
-
-@include('inc.header')
-
 @section('content')
+@include('inc.header')
 <section id="proyectos">
 	<div id="proyectos" class="bkground">
 		<h1><b>PROYECTOS</b></h1>

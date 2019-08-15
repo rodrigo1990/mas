@@ -46,3 +46,8 @@ Route::get('/educacion', function () {
 Route::get('/arte', function () {
     return view('proyectos',['arte'=>'true']);
 });
+
+
+Route::get('/formulario', function () {
+    return view('formulario');
+});

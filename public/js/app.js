@@ -12711,6 +12711,26 @@ if (document.getElementById('index')) {
   });
 }
 
+if (document.getElementById('formulario')) {
+  __webpack_require__(/*! ./scripts/openFormulario */ "./resources/js/scripts/openFormulario.js");
+
+  __webpack_require__(/*! ./scripts/closeFormulario */ "./resources/js/scripts/closeFormulario.js");
+}
+
+/***/ }),
+
+/***/ "./resources/js/scripts/closeFormulario.js":
+/*!*************************************************!*\
+  !*** ./resources/js/scripts/closeFormulario.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+window.closeFormulario = function (monto) {
+  $("#formulario .overlay").fadeOut();
+  $("#formulario").fadeOut();
+};
+
 /***/ }),
 
 /***/ "./resources/js/scripts/header-functions.js":
@@ -12762,6 +12782,20 @@ $("#cerrarMenu").click(function () {
 $("#xsMenu  li a").click(function () {
   $("#xsMenu").addClass("animated bounceOutRight");
 });
+
+/***/ }),
+
+/***/ "./resources/js/scripts/openFormulario.js":
+/*!************************************************!*\
+  !*** ./resources/js/scripts/openFormulario.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+window.openFormulario = function (monto) {
+  $("#formulario .overlay").fadeIn();
+  $("#formulario").fadeIn();
+};
 
 /***/ }),
 

@@ -1,8 +1,6 @@
 @extends('layouts.main')
-
-@include('inc.header')
-
 @section('content')
+@include('inc.header')
 <section id="index">
 <div class="bkground">
 	<h1><b>M</b>ovimiento de <b>A</b>cción <b>S</b>ocial</h1>
@@ -11,10 +9,10 @@
 		<li>
 			<h1>¿QUERÉS <br> COLABORAR?</h1>
 		</li>
-		<li><h2><span>ARS</span> <br> $200</h2></li>
-		<li><h2><span>ARS</span> <br> $300</h2></li>
-		<li><h2><span>ARS</span> <br> $500</h2></li>
-		<li><h2><span>OTRO</span> <br> MONTO</h2></li>
+		<li><a onClick="openFormulario(200)"><h2><span>ARS</span> <br> $200</h2></a></li>
+		<li><a onClick="openFormulario(300)"><h2><span>ARS</span> <br> $300</h2></a></li>
+		<li><a onClick="openFormulario(500)"><h2><span>ARS</span> <br> $500</h2></a></li>
+		<li><a onClick="openFormulario('otro')"><h2><span>OTRO</span> <br> MONTO</h2></a></li>
 	</ul>
 </div>
 <div class="row separator">
@@ -63,6 +61,7 @@
 </section>
 
 
+@include('inc.formulario')
 @include('inc.bkground-bottom')
 @include('inc.footer')
 

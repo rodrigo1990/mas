@@ -1,0 +1,59 @@
+
+#formulario{
+    
+    .overlay{
+        position:fixed;
+        width:100vw;
+        height: 100vh;
+        background:rgba(0,0,0,0.5);
+        @include center-abs;
+    }
+
+     #formulario-cont{
+	position: fixed;
+    top: 0px;
+    bottom: 158px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(255,255,255,0.95);
+    z-index: 90000000000;
+    width: 1200px;
+    height: 300px;
+    border-radius:8px;
+    border:8px solid $primary-color;
+
+    img{
+    	margin-left:20px;
+    	margin-top:20px;
+        width: 149px;
+    }
+    form{
+	    margin-top: 0;
+        padding-left: 150px;
+	  	padding-right: 150px;
+    }
+    
+    .close-btn:hover i{
+        color:gray;
+    }
+
+    .close-btn{
+        position:absolute;
+        right: 10px;
+        top: 10px;
+        i{
+            font-size: 30px;
+            color:$primary-color;
+        }
+    }
+
+    i{
+    transition: all 0.5s linear;
+}
+
+
+
+
+}
+}

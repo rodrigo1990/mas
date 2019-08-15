@@ -20,7 +20,7 @@
 						<ul id="nav" class="menu">
 							<li><a href="proyectos"  class="after-btn">PROYECTOS</a></li>
 							<li><a  id="nosotros-btn" target="" class="after-btn"  >NOSOTROS</a></li>
-							<li><a href="" class="after-btn">COLABORÁ</a></li>
+							<li><a href="formulario" class="after-btn">COLABORÁ</a></li>
 
 							<li class="">
 
@@ -54,7 +54,7 @@
 			</div>
 			<li><a href="proyectos" class="xs-btn spa-btn">PROYECTOS</a></li>
 			<li><a href="https://www.argenpesos.com.ar/micuenta/quiero-pagar.php"  class="xs-btn" >NOSOTROS</a></li>
-			<li><a href="sucursales" class="xs-btn spa-btn">COLABORÁ</a></li>
+			<li><a href="formulario" class="xs-btn spa-btn">COLABORÁ</a></li>
 			<li>
 				
 				<a href="" target="_blank" class="float-left rr-ss"><i class="far fa-envelope"></i></a>

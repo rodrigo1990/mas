@@ -95,6 +95,20 @@ div.bkground ul li h1,div.bkground ul li h2{
 div.bkground ul li{
      padding:30px;
      width: 178.359px;
+     cursor:pointer;
+
+}
+
+
+div.bkground ul li a:not(:nth-child(5)){
+     color:white;
+
+}
+
+
+div.bkground ul li a:hover{
+     color:lightGray;
+     text-decoration: none;
 
 }
 
@@ -123,7 +137,20 @@ div.bkground ul li:nth-child(4){
 
 div.bkground ul li:nth-child(5){
      background-color:$fifth-color;
-     color:$primary-color;
+     color:$primary-color !important;
+
+}
+
+
+div.bkground ul li:nth-child(5) a{
+     color:$primary-color !important;
+
+}
+
+
+
+div.bkground ul li:nth-child(5) a:hover{
+     color:gray !important;
 
 }
 

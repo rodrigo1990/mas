@@ -31,4 +31,15 @@ if(document.getElementById('index')){
 
 
 
+if(document.getElementById('formulario')){
+
+	require('./scripts/openFormulario');
+	require('./scripts/closeFormulario');
+
+
+
+}
+
+
+
 
