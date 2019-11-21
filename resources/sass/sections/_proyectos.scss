@@ -22,6 +22,15 @@ section#proyectos .descrip{
     height: $altura-imagen;
 }
 
+
+
+section#proyectos .descrip.flex{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
 section#proyectos .row .uno.bkground-img{
     background-image:url('../img/proy-1.jpg');
 }
@@ -59,10 +68,3 @@ section#proyectos .row ul li h2 {
 
 
 
-
-section#proyectos .descrip>div{
-    width: fit-content;
-    height: fit-content;
-    position:absolute;
-    @include center-abs;
-}

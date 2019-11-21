@@ -5892,7 +5892,7 @@ ul {
   padding: 0;
 }
 
-ul.flex {
+.flex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -5907,7 +5907,7 @@ body {
 }
 
 h1 {
-  color: #00a5e7 !important;
+  color: #00a5e7;
   font-size: 4.2rem;
   font-family: "GothamBold" !important;
 }
@@ -5921,8 +5921,13 @@ h4 {
   font-weight: bold !important;
 }
 
-a {
+a,
+h1 {
   transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none !important;
 }
 
 /*---------------------------------------------*/
@@ -5942,7 +5947,6 @@ header {
   /*      -webkit-box-shadow: -1px 10px 30px -24px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 10px 30px -24px rgba(0,0,0,0.75);
     box-shadow: -5px 10px 30px -24px rgba(0,0,0,0.75);*/
-  height: 93px;
 }
 
 header ul.menu {
@@ -6154,6 +6158,14 @@ header ul.sub-menu li:not(:first-child) {
   font-size: 4.5rem;
 }
 
+div.bkground.flex,
+div.bkground-bottom.flex {
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 div.bkground {
   width: 100%;
   height: 100vh;
@@ -6162,20 +6174,6 @@ div.bkground {
   /* background-position: center; */
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-div.bkground > h1,
-div.bkground ul {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  height: 130px;
-  text-align: center;
-  color: white !important;
-  margin: auto;
 }
 
 div.bkground > h1 {
@@ -6196,29 +6194,20 @@ div.bkground ul li h2 span {
   font-family: "GothamBook" !important;
 }
 
-div.bkground ul {
-  top: 200px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background: rgba(225, 225, 225, 0.7);
-}
-
 div.bkground ul li {
   list-style: none;
 }
 
 div.bkground ul li h1 {
   font-family: "GothamBold" !important;
-  text-align: left;
+  text-align: center;
   font-size: 4rem;
-  color: white !important;
+  color: white;
 }
 
 div.bkground ul li h1,
 div.bkground ul li h2 {
   font-family: "GothamBold";
-  text-align: left;
   font-size: 3rem;
   margin: 0;
 }
@@ -6229,11 +6218,7 @@ div.bkground ul li {
   cursor: pointer;
 }
 
-div.bkground ul li a:not(:nth-child(5)) {
-  color: white;
-}
-
-div.bkground ul li a:hover {
+div.bkground ul li a:hover h1 {
   color: lightGray;
   text-decoration: none;
 }
@@ -6315,18 +6300,15 @@ div.bkground ul li:nth-child(5) a:hover {
   color: white;
 }
 
+.img-row-btn ul li .overlay.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .img-row-btn ul li .overlay h4 {
   color: white;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
   border: 2px solid #00a5e7;
   border-radius: 4px;
   width: 97px;
@@ -6399,21 +6381,6 @@ div.bkground ul li:nth-child(5) a:hover {
   border-top: 8px solid #00a5e7;
 }
 
-.bkground-bottom .logo-cont {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
 .bkground-bottom .logo-cont img {
   width: 300px;
   margin-left: auto;
@@ -6439,6 +6406,13 @@ section#proyectos .row div.bkground-img {
 section#proyectos .descrip {
   padding: 100px;
   height: 488px;
+}
+
+section#proyectos .descrip.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 section#proyectos .row .uno.bkground-img {
@@ -6472,21 +6446,6 @@ section#proyectos .row p {
 
 section#proyectos .row ul li h2 {
   letter-spacing: 5px;
-}
-
-section#proyectos .descrip > div {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
 }
 
 #formulario .overlay {
@@ -6750,27 +6709,25 @@ footer .logo {
 
   div.bkground > h1,
   div.bkground ul {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 122px !important;
-    bottom: auto !important;
-    margin: auto;
-    height: 130px;
-    text-align: center;
-    color: white !important;
-    margin: auto;
+    /* position: absolute;
+     left: 0;
+     right: 0;
+     top: 122px !important;
+     bottom: auto !important;
+     margin: auto;
+     height: 130px;
+     text-align: center;
+     color: white !important;
+     margin: auto;*/
   }
 
   div.bkground ul {
-    top: 239px !important;
-    background: none;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    width: 275px;
+    /* top: 239px !important;
+      background:none;
+      height: fit-content;
+          margin-left: auto;
+      margin-right: auto;
+      width: 275px;*/
   }
 
   div.bkground ul li {
@@ -6817,12 +6774,21 @@ footer .logo {
     text-align: center;
   }
 
+  footer .text-right,
+  footer .text-left {
+    text-align: center;
+  }
+
   footer ul li {
     margin: auto !important;
   }
 
-  footer ul li:not(:nth-child(1)) {
-    margin-top: 15px !important;
+  footer ul li {
+    margin-bottom: 15px !important;
+  }
+
+  footer div.row div.container .col-lg-6.col-md-6 > h4 {
+    margin-bottom: 15px;
   }
 
   footer div.col-lg-8 h4 {
@@ -6935,7 +6901,7 @@ footer .logo {
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
   div.bkground > h1,
   div.bkground ul {
-    height: 91px;
+    /* height: 91px;*/
   }
 
   div.bkground ul li h1,

@@ -4,6 +4,16 @@
     font-size: 4.5rem;
 }
 
+div.bkground.flex,div.bkground-bottom.flex{
+    flex-direction:column;
+    text-align:center;
+    align-items: center;
+  justify-content: center;
+}
+
+
+
+
 div.bkground{
     width: 100%;
     height: 100vh;
@@ -14,20 +24,6 @@ div.bkground{
     background-repeat: no-repeat;
 }
 
-
-div.bkground>h1, div.bkground ul{
-       position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    height: 130px;
-    text-align: center;
-    color: white !important;
-    margin:auto;
-    
-}
 
 
 
@@ -56,36 +52,25 @@ div.bkground ul li h2 span{
 }
 
 
-div.bkground ul{
-
-    top:200px;
-    width: fit-content;
-    background: rgba(225,225,225,0.7);
-
-
-
-}
 
 div.bkground ul li {
-//padding:50px;
 list-style:none
 }
 
 div.bkground ul li h1{
 
     font-family: $paragraph-bold-family !important;
-     text-align: left;
+     text-align: center;
        font-size: 4rem;
 
 
-       color:$white !important;
+       color:$white ;
 
 }
 
 
 div.bkground ul li h1,div.bkground ul li h2{
      font-family: $paragraph-bold-family;
-     text-align: left;
        font-size: 3rem ;
        margin:0;
 
@@ -100,17 +85,14 @@ div.bkground ul li{
 }
 
 
-div.bkground ul li a:not(:nth-child(5)){
-     color:white;
-
-}
 
 
-div.bkground ul li a:hover{
+div.bkground ul li a:hover h1 {
      color:lightGray;
      text-decoration: none;
 
 }
+
 
 div.bkground ul li:nth-child(1){
      background-color:$primary-color;
@@ -219,13 +201,18 @@ div.bkground ul li:nth-child(5) a:hover{
     background:$primary-color;
     color:white;
 }
+
+.img-row-btn ul li .overlay.flex{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
     
+}
+
+
 .img-row-btn ul li .overlay h4{
     color:$white;
-    position:absolute;
-    margin:auto;
-    @include center-abs;
-    height: fit-content;
     border:2px solid $primary-color ;
     border-radius:4px;
     width: 97px;
@@ -306,10 +293,7 @@ div.bkground ul li:nth-child(5) a:hover{
 
 
 .bkground-bottom .logo-cont {
-    position:absolute;
-    @include center-abs;
-    width: fit-content;
-    height: fit-content;
+
 
 
 

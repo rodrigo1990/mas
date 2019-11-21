@@ -1,4 +1,4 @@
-<div class="bkground-bottom mr0">
+<div class="bkground-bottom mr0 flex">
 	<div class="logo-cont">
 		<img class="center-block" src="{{asset('img/logo-white.svg')}}" alt="">
 

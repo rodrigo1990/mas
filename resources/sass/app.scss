@@ -99,7 +99,7 @@ ul{
     padding:0;
 }
 
-ul.flex{ 
+.flex{ 
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -114,7 +114,7 @@ body{
 }
 
 h1{
-    color:$primary-color !important;
+    color:$primary-color ;
     font-size: 4.2rem;
     font-family: $paragraph-bold-family !important;
 }
@@ -129,7 +129,7 @@ font-weight:bold !important;
 
 }
 
-a{
+a,h1{
  -webkit-transition: all 0.50s ease-in-out;
   -moz-transition: all 0.50s ease-in-out;
   -ms-transition: all 0.50s ease-in-out;
@@ -137,6 +137,10 @@ a{
   transition: all 0.50s ease-in-out;
 }
 
+
+a:hover{
+  text-decoration: none !important;
+}
 
 
 

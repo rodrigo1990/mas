@@ -72,7 +72,7 @@ ul.flex{
 
 
 div.bkground > h1, div.bkground ul {
-    position: absolute;
+   /* position: absolute;
     left: 0;
     right: 0;
     top: 122px !important;
@@ -81,16 +81,16 @@ div.bkground > h1, div.bkground ul {
     height: 130px;
     text-align: center;
     color: white !important;
-    margin: auto;
+    margin: auto;*/
 }
 
 div.bkground ul {
-   top: 239px !important;
+  /* top: 239px !important;
     background:none;
     height: fit-content;
         margin-left: auto;
     margin-right: auto;
-    width: 275px;
+    width: 275px;*/
 }
 
 div.bkground ul li {
@@ -139,15 +139,33 @@ footer ul{
 
 }
 
+footer .text-right, footer .text-left{
+    text-align: center;
+}
+
 
 footer ul li{
 	margin:auto !important;
 	
 }
 
-footer ul li:not(:nth-child(1)){
-	margin-top:15px !important;
-	
+
+footer {
+    ul{
+        li{
+
+    margin-bottom:15px !important;
+        }
+    }
+    div.row{
+        div.container{
+            .col-lg-6.col-md-6{
+                >h4{
+                    margin-bottom:15px;
+                }
+            }
+        }
+    }
 }
 
 footer div.col-lg-8 h4{
@@ -306,7 +324,7 @@ div.bkground ul li {
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
 
     div.bkground > h1, div.bkground ul{
-        height: 91px;
+       /* height: 91px;*/
     }
 
 div.bkground ul li h1, div.bkground ul li h2 {

@@ -1,25 +1,25 @@
 @extends('layouts.main')
-@section('content')
+
 @include('inc.header')
+
+@section('content')
 <section id="proyectos">
-	<div id="proyectos" class="bkground">
+	<div id="proyectos" class="bkground flex">
 		<h1><b>PROYECTOS</b></h1>
 
-		<ul class="flex">
+		<ul class="">
 			<li>
-				<h1>¿QUERÉS <br> COLABORAR?</h1>
+				<a href="">
+					<h1>EMPEZÁ A DONAR AHORA</h1>
+				</a>
 			</li>
-			<li><h2><span>ARS</span> <br> $200</h2></li>
-			<li><h2><span>ARS</span> <br> $300</h2></li>
-			<li><h2><span>ARS</span> <br> $500</h2></li>
-			<li><h2><span>OTRO</span> <br> MONTO</h2></li>
 		</ul>
 	</div>
 	<div class="row" id="pelota">
 		<div class="col-lg-6 col-sm-6  hidden-xs bkground-img col-push uno">
 			<!--  <img src="{{asset('img/proy-1-1.jpg')}}" alt="">-->
 		</div>
-		<div class="col-lg-6 col-sm-6 col-xs-12 descrip">
+		<div class="col-lg-6 col-sm-6 col-xs-12 descrip flex">
 			<div>
 				<h2 class="mt0">REVOLUCIÓN PELOTA</h2>
 				<p>Buscamos generar un impacto social a <br> través del deporte.</p>
@@ -31,10 +31,10 @@
 	</div>
 
 	<div class="row" id="nutricion">
-		<div class="col-lg-6 col-sm-6 col-xs-12 descrip">
+		<div class="col-lg-6 col-sm-6 col-xs-12 descrip flex">
 			<div>
 				<h2 class="mt0">MÁS NUTRICIÓN</h2>
-				<p>Merendero Revolucionar: Somos parte de un <br> colectivo que busca que los chicos y chicas <br> 
+				<p>Merendero MAS: Somos parte de un <br> colectivo que busca que los chicos y chicas <br> 
 				del Barrio La Cava tengan su merienda.
 			</div>
 			</p>
@@ -49,10 +49,10 @@
 		<div class="col-lg-6 col-sm-6 hidden-xs bkground-img tres">
 			<!--  <img src="{{asset('img/proy-1-1.jpg')}}" alt="">-->
 		</div>
-		<div class="col-lg-6 col-sm-6 col-xs-12 descrip descrip-tres">
+		<div class="col-lg-6 col-sm-6 col-xs-12 descrip descrip-tres flex">
 			<div>
 				<h2 class="mt0">MÁS EDUCACIÓN</h2>
-				<p>Revolución Tilcara: Generamos proyectos <br> hace mas de 10 años en comunidades y <br> escuelas de la Quebrada de Humahuaca <br> buscando que nunca falten útiles para que <br> los niños puedan estudiar.</p>
+				<p>Tamborcito Tilcara: Generamos proyectos <br> hace mas de 10 años en comunidades y <br> escuelas de la Quebrada de Humahuaca <br> buscando que nunca falten útiles para que <br> los niños puedan estudiar.</p>
 			</div>
 		</div>
 		<div class="hidden-lg hidden-md col-xs-12 hidden-sm bkground-img tres">
@@ -61,10 +61,10 @@
 	</div>
 
 	<div class="row" id="arte">
-		<div class="col-lg-6 col-sm-6 col-xs-12 descrip">
+		<div class="col-lg-6 col-sm-6 col-xs-12 descrip flex">
 			<div>
 				<h2 class="mt0">MÁS ARTE</h2>
-				<p>A través del arte y de la cultura tratamos de <br> recaudar fondos para costear parte de los <br> proyectos de Revolucionar.
+				<p>A través del arte y de la cultura tratamos de <br> recaudar fondos para costear parte de los <br> proyectos.
 
 				</p>
 			</div>

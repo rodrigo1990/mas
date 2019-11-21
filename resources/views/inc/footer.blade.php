@@ -9,10 +9,10 @@
 <footer class="p5">
 	<div class="row">
 				<div class="container">
-					<div class="col-lg-8 col-md-8">
-				<h4 class="m0 mt4 text-right">Merendero MAS Movimiento de Acción Social - 2019</h4>
+					<div class="col-lg-6 col-md-6">
+				<h4 class="m0 mt4 text-right">Movimiento de Acción Social - 2019</h4>
 			</div>
-					<div class="col-lg-4 col-md-4">
+					<div class="col-lg-6 col-md-6">
 				<ul class="flex ml0">
 					<li>
 						<a href="index">

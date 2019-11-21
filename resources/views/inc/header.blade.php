@@ -19,7 +19,7 @@
 					<div class="col-lg-10 hidden-md hidden-sm hidden-xs btn-cont">
 						<ul id="nav" class="menu">
 							<li><a href="proyectos"  class="after-btn">PROYECTOS</a></li>
-							<li><a  id="nosotros-btn" target="" class="after-btn"  >NOSOTROS</a></li>
+							<!--  <li><a  id="nosotros-btn" target="" class="after-btn"  >NOSOTROS</a></li>-->
 							<li><a href="formulario" class="after-btn">COLABORÁ</a></li>
 
 							<li class="">
