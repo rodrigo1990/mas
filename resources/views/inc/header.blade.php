@@ -19,8 +19,8 @@
 					<div class="col-lg-10 hidden-md hidden-sm hidden-xs btn-cont">
 						<ul id="nav" class="menu">
 							<li><a href="proyectos"  class="after-btn">PROYECTOS</a></li>
-							<!--  <li><a  id="nosotros-btn" target="" class="after-btn"  >NOSOTROS</a></li>-->
-							<li><a href="formulario" class="after-btn">COLABORÁ</a></li>
+							<!--<li><a  id="nosotros-btn" target="" class="after-btn"  >NOSOTROS</a></li>-->
+						<li><a href="https://donaronline.org/movimiento-de-accion-social/colaborador-mas" target="_blank" class="after-btn">COLABORÁ</a></li>
 
 							<li class="">
 
@@ -38,7 +38,7 @@
 				</div>
 				<div class="hidden-lg col-md-12 col-sm-12 col-xs-12 text-center xs-row " style="">
 					<a href="index.php">
-						<img class="logo" src="<?php echo asset("img/logo-blue.svg")?>"></img> 
+						<img class="logo" id="logo-btn-xs" src="<?php echo asset("img/logo-white.svg")?>"></img> 
 					</a>
 						<a id="abrirMenu">
 							<i class="fa fa-bars"  id="abrirMenu"></i>
@@ -53,15 +53,15 @@
 				</a>
 			</div>
 			<li><a href="proyectos" class="xs-btn spa-btn">PROYECTOS</a></li>
-			<li><a href="https://www.argenpesos.com.ar/micuenta/quiero-pagar.php"  class="xs-btn" >NOSOTROS</a></li>
-			<li><a href="formulario" class="xs-btn spa-btn">COLABORÁ</a></li>
-			<li>
+			<!--<li><a   class="xs-btn" >NOSOTROS</a></li>-->
+			<li><a onClick="openFormulario()"  class="xs-btn spa-btn">COLABORÁ</a></li>
+			<li style="    margin: auto;width: fit-content;margin-top: 41px;">
 				
-				<a href="" target="_blank" class="float-left rr-ss"><i class="far fa-envelope"></i></a>
+				<a href="mailTo:{{$email}}" target="_blank" class="float-left rr-ss"><i class="far fa-envelope"></i></a>
 
-				<a href="https://www.facebook.com/argenpesos" target="_blank" class="float-left rr-ss ml2"><i class="fab fa-facebook-f"></i></a>
+				<a href="{{$fb}}" target="_blank" class="float-left rr-ss ml2" style="margin-left: 15px;margin-right: 9px;"><i class="fab fa-facebook-f"></i></a>
 
 
-				<a href="https://www.instagram.com/argenpesos/" target="_blank" class="float-left rr-ss ml2"><i class="fab fa-instagram"></i></a>
+				<a href="{{$ig}}" target="_blank" class="float-left rr-ss ml2"><i class="fab fa-instagram"></i></a>
 			</li>
 		</ul>

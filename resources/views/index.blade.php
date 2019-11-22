@@ -7,7 +7,7 @@
 
 	<ul class="">
 		<li>
-			<a href="">
+			<a href="https://donaronline.org/movimiento-de-accion-social/colaborador-mas" target="_blank">
 				<h1>EMPEZÁ A DONAR AHORA</h1>
 			</a>
 		</li>
@@ -30,7 +30,7 @@
 </div>
 
 
-<div id="nosotros" class="row nosotros mt0 p10 mb18" id="nosotros" style="display:block">
+<div id="nosotros" class="row nosotros mt0 p10 mb18" id="nosotros" style="display:none;">
 	<div class="container">
 		<h1 class="text-center mt17 mb10">NOSOTROS</h1>
 		<ul class="flex mt20 mb20">
