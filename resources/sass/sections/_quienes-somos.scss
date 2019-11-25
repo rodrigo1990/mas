@@ -1,0 +1,19 @@
+#quienes-somos{
+	.flex{
+		justify-content:center;
+	}
+
+	h3.sub{
+		margin-bottom:28px;
+	}
+
+	.flex li{
+		flex-basis:142px;
+		img{
+			display:block;
+			margin:auto;
+			width:71px;
+		}
+		
+	}
+}

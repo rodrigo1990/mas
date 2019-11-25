@@ -30,6 +30,37 @@
 </div>
 
 
+
+<div id="quienes-somos" class="row quienes-somos mt0 p10 mb18" id="nosotros" style="display:block;">
+	<div class="container">
+		<h1 class="text-center mt17 mb10">QUIENES SOMOS</h1>
+		<div class="col-sm-6">
+			<p>
+				<b>MAS</b> es un movimiento de acción que tiene como
+				objetivo la transformación social a través de cuatro
+				pilares que impactan de manera fundamental en la etapa de desarrollo de los más chicos:
+				<b>la alimentación, la educación, el deporte y la cultura.</b>
+				Nuestro trabajo se basa en la constante búsqueda de herramientas que puedan igualar las oportunidades
+			</p>
+		</div>
+		<div class="col-sm-6">
+			<p>para todos aquellos que nacieron en situaciones de 
+				vulnerabilidad. 
+				Como grupo buscamos <b>incidir de forma positiva en la sociedad.</b> Estamos convencidos que generando estos mecanismos solidarios, que igualen las posibilidades de chicas y chicos en etapa de formación, vamos a estar mucho más cerca de nuestros objetivos.</p>
+		</div>
+		<div class="col-sm-12">
+			<h3 class="text-center sub">CUATRO PILARES</h3>
+			<ul class="flex">
+				<li><img src="<?php echo asset('/img/icon-quienes-somos-01.svg') ?>"  alt=""></li>
+				<li><img src="<?php echo asset('/img/icon-quienes-somos-02.svg') ?>"  alt=""></li>
+				<li><img src="<?php echo asset('/img/icon-quienes-somos-03.svg') ?>"  alt=""></li>
+				<li><img src="<?php echo asset('/img/icon-quienes-somos-04.svg') ?>"  alt=""></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
 <div id="nosotros" class="row nosotros mt0 p10 mb18" id="nosotros" style="display:none;">
 	<div class="container">
 		<h1 class="text-center mt17 mb10">NOSOTROS</h1>

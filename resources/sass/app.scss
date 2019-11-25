@@ -113,11 +113,31 @@ body{
     overflow-x: hidden;
 }
 
+p{
+  font-family:$paragraph-family;
+  color:$gray;
+  b{
+    font-family: $paragraph-bold-family;
+  }
+}
+
 h1{
-    color:$primary-color ;
+    color:$primary-color;
     font-size: 4.2rem;
     font-family: $paragraph-bold-family !important;
 }
+
+
+div {
+  h1{
+    color:$primary-color;
+    }
+
+    h3.sub{
+    color:$gray;
+    font-family: $paragraph-bold-family;
+    }
+  }
 
 h1>span{
     font-family: $paragraph-family !important;
@@ -159,6 +179,9 @@ a:hover,a:active,a:focus{
 @import 'transiciones';
 
 @import 'sections/formulario';
+
+
+@import 'sections/quienes-somos';
 
 @import 'sections/footer';
 
