@@ -19,7 +19,7 @@
 					<div class="col-lg-10 hidden-md hidden-sm hidden-xs btn-cont">
 						<ul id="nav" class="menu">
 							<li><a href="proyectos"  class="after-btn">PROYECTOS</a></li>
-							<!--<li><a  id="nosotros-btn" target="" class="after-btn"  >NOSOTROS</a></li>-->
+							<li><a  id=""  class="after-btn quienes-somos-btn"  >QUIENES SOMOS</a></
 						<li><a href="https://donaronline.org/movimiento-de-accion-social/colaborador-mas" target="_blank" class="after-btn">COLABORÁ</a></li>
 
 							<li class="">
@@ -53,7 +53,8 @@
 				</a>
 			</div>
 			<li><a href="proyectos" class="xs-btn spa-btn">PROYECTOS</a></li>
-			<!--<li><a   class="xs-btn" >NOSOTROS</a></li>-->
+				<li><a  id=""  class="xs-btn spa-btn quienes-somos-btn"  >QUIENES SOMOS</a></li>
+
 			<li><a onClick="openFormulario()"  class="xs-btn spa-btn">COLABORÁ</a></li>
 			<li style="    margin: auto;width: fit-content;margin-top: 41px;">
 				

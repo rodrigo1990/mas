@@ -1,3 +1,8 @@
 export  function scrollAnimate(id){
-	$('html,body').animate({ scrollTop:$('#'+id+'').offset().top-100  }, 'slow');
+	try{ $('html,body').animate({ scrollTop:$('#'+id+'').offset().top-100  }, 'slow');
+	}
+	catch(error){
+		window.location.href = 'http://'+window.location.host+'/index#quienes-somos';
+	}
+
 }

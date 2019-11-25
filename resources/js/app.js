@@ -17,12 +17,11 @@ if(document.getElementById('proyectos')){
 }
 
 
-if(document.getElementById('index')){
+if(document.getElementById('index') || document.getElementById('proyectos') ){
 
-	
 
-	$("#nosotros-btn").click(function(){
-		scrollAnimate('nosotros')
+	$(".quienes-somos-btn").click(function(){
+		scrollAnimate('quienes-somos')
 	});
 
 

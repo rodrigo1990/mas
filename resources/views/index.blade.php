@@ -51,10 +51,22 @@
 		<div class="col-sm-12">
 			<h3 class="text-center sub">CUATRO PILARES</h3>
 			<ul class="flex">
-				<li><img src="<?php echo asset('/img/icon-quienes-somos-01.svg') ?>"  alt=""></li>
-				<li><img src="<?php echo asset('/img/icon-quienes-somos-02.svg') ?>"  alt=""></li>
-				<li><img src="<?php echo asset('/img/icon-quienes-somos-03.svg') ?>"  alt=""></li>
-				<li><img src="<?php echo asset('/img/icon-quienes-somos-04.svg') ?>"  alt=""></li>
+				<li class="text-center">
+					<img src="<?php echo asset('/img/icon-quienes-somos-01.svg') ?>"  alt="">
+					<p><b>Alimentación</b></p>
+				</li>
+				<li class="text-center">
+					<img src="<?php echo asset('/img/icon-quienes-somos-02.svg') ?>"  alt="">
+					<p><b>Educación</b></p>
+				</li>
+				<li class="text-center">
+					<img src="<?php echo asset('/img/icon-quienes-somos-03.svg') ?>"  alt="">
+					<p><b>Deporte</b></p>
+				</li>
+				<li class="text-center">
+					<img src="<?php echo asset('/img/icon-quienes-somos-04.svg') ?>"  alt="">
+					<p><b>Arte y Cultura</b></p>
+				</li>
 			</ul>
 		</div>
 	</div>

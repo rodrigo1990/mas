@@ -17,6 +17,10 @@
 
 @media only screen and (min-width: 320px) and (max-width: 850px){
 
+    #quienes-somos p{
+        text-align: center;
+    }
+
     #quienes-somos > .container  .col-sm-6:nth-child(2) p{
         margin:0 0 0 !important;
     }
@@ -26,7 +30,7 @@
     }
 
     #quienes-somos .flex li {
-    flex-basis: 101px;
+    flex-basis: 120px;
 }
 
 	header {
