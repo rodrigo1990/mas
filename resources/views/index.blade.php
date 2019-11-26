@@ -33,7 +33,7 @@
 
 <div id="quienes-somos" class="row quienes-somos mt0 p10 mb18" id="nosotros" style="display:block;">
 	<div class="container">
-		<h1 class="text-center mt17 mb10">QUIENES SOMOS</h1>
+		<h1 class="text-center mt17 mb10">¿QUE HACEMOS?</h1>
 		<div class="col-sm-6">
 			<p>
 				<b>MAS</b> es un movimiento de acción que tiene como

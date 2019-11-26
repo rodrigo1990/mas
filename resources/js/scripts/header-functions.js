@@ -5,7 +5,7 @@ $(window).scroll(function (event) {
     	$("header").removeClass("animated slideInDown");
         $("header").removeClass("addBkground");
         $("header").removeClass("removeBkground");
-        $("header #logo-btn img").attr('src','img/logo-white.svg');
+        $("header .logo-btn img").attr('src','img/logo-white.svg');
 
         /*$(".xs-row").removeClass("addBkground");
 
@@ -18,7 +18,7 @@ $(window).scroll(function (event) {
 
     }else{
 
-        $("header #logo-btn img").attr('src','img/logo-blue.svg');
+        $("header .logo-btn img").attr('src','img/logo-blue.svg');
 
         //$(".xs-row").removeClass("removeBkground");
 
