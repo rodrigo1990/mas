@@ -34,10 +34,11 @@
 		<div class="col-lg-6 col-sm-6 col-xs-12 descrip flex">
 			<div>
 				<h2 class="mt0">MÁS NUTRICIÓN</h2>
-				<p>Merendero MAS: Somos parte de un <br> colectivo que busca que los chicos y chicas <br> 
-				del Barrio La Cava tengan su merienda.
+				<p>Merendero MAS: Generamos nuestro propio lugar de encuentro para que los más chicos del barrio La Cava puedan tener una merienda y un espacio donde desarrollar actividades deportivas y recreativas. Al día de hoy asisten más de 120 chicas y chicos.
+
+				</p>	
 			</div>
-			</p>
+			
 		</div>
 		<div class="col-lg-6 col-sm-6 col-xs-12 bkground-img dos" id="">
 			<!--  <img src="{{asset('img/proy-1-1.jpg')}}" alt="">-->
